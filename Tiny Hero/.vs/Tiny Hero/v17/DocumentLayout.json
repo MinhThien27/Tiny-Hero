@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|c:\\users\\minht\\desktop\\gamesmaker\\unity\\tiny hero\\tiny-hero\\tiny hero\\assets\\_project\\scripts\\input\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\input\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\settings\\playerinputactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\settings\\playerinputactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\mytools\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\mytools\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T08:45:16.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CameraManager.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\CameraManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\CameraManager.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\CameraManager.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\CameraManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T09:42:14.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerInputActions.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Settings\\PlayerInputActions.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Settings\\PlayerInputActions.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Settings\\PlayerInputActions.cs",
+              "RelativeToolTip": "Assets\\_Project\\Settings\\PlayerInputActions.cs",
+              "ViewState": "AgIAAGgEAAAAAAAAAAAQwN4EAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T09:13:15.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InputReader.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Input\\InputReader.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Input\\InputReader.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Input\\InputReader.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Input\\InputReader.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAuwAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T08:30:41.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Setup.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\MyTools\\Setup.cs",
+              "RelativeDocumentMoniker": "Assets\\MyTools\\Setup.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\MyTools\\Setup.cs",
+              "RelativeToolTip": "Assets\\MyTools\\Setup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T07:56:03.539Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
