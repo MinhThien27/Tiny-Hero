@@ -62,7 +62,6 @@
   <ItemGroup>
     <Compile Include="Assets\_Project\Scripts\PlayerController.cs" />
     <Compile Include="Assets\_Project\Scripts\CameraManager.cs" />
-    <Compile Include="Assets\_Project\Scripts\Input\Tiny Hero.cs" />
     <Compile Include="Assets\MyTools\Setup.cs" />
     <Compile Include="Assets\_Project\Settings\PlayerInputActions.cs" />
     <Compile Include="Assets\_Project\Scripts\Input\InputReader.cs" />

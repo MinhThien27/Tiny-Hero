@@ -366,7 +366,6 @@
 "Assets/MyTools/Setup.cs"
 "Assets/_Project/Scripts/CameraManager.cs"
 "Assets/_Project/Scripts/Input/InputReader.cs"
-"Assets/_Project/Scripts/Input/Tiny Hero.cs"
 "Assets/_Project/Scripts/PlayerController.cs"
 "Assets/_Project/Settings/PlayerInputActions.cs"
 -langversion:9.0
