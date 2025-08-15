@@ -5,7 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
-using static PlayerInputActions;
+using static TinyHero;
 
 [CreateAssetMenu(fileName = "InputReader", menuName = "Input/InputReader", order = 0)]
 public class InputReader : ScriptableObject, IPlayerActions
@@ -14,14 +14,17 @@ public class InputReader : ScriptableObject, IPlayerActions
     public event UnityAction<Vector2, bool> Look = delegate { };
     public event UnityAction EnableMouseControlCamera = delegate { };
     public event UnityAction DisableMouseControlCamera = delegate { };
+    public event UnityAction<bool> Jump = delegate { };
+    public event UnityAction<bool> Dash = delegate { };
+    public event UnityAction Attack = delegate { };
 
-    PlayerInputActions inputActions;
+    TinyHero inputActions;
 
     private void OnEnable()
     {
         if (inputActions == null)
         {
-            inputActions = new PlayerInputActions();
+            inputActions = new TinyHero();
             inputActions.Player.SetCallbacks(this);
         }
     }
@@ -47,7 +50,11 @@ public class InputReader : ScriptableObject, IPlayerActions
 
     public void OnFire(InputAction.CallbackContext context)
     {
-        //nope
+        if (context.phase == InputActionPhase.Started)
+        {
+            Attack.Invoke();
+            Debug.Log("Has invoke Attack");
+        }
     }
 
     public void OnMouseControlCamera(InputAction.CallbackContext context)
@@ -65,11 +72,27 @@ public class InputReader : ScriptableObject, IPlayerActions
 
     public void OnJump(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        switch(context.phase)
+        {
+            case InputActionPhase.Started:
+                Jump.Invoke(true);
+                break;
+            case InputActionPhase.Canceled:
+                Jump.Invoke(false);
+                break;
+        }
     }
 
     public void OnRun(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        switch (context.phase)
+        {
+            case InputActionPhase.Started:
+                Dash.Invoke(true);
+                break;
+            case InputActionPhase.Canceled:
+                Dash.Invoke(false);
+                break;
+        }
     }
 }
