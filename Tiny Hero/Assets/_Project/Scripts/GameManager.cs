@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour 
 { 
     public static GameManager Instance { get; private set; }
+    public event Action OnScoreChanged;
     public int Score { get; private set; }
 
     private void Awake()
@@ -17,5 +19,6 @@ public class GameManager : MonoBehaviour
     public void AddScore(int score)
     {
         Score += score;
+        OnScoreChanged?.Invoke();
     }
 }

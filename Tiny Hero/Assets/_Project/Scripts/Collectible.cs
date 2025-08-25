@@ -1,14 +1,24 @@
+﻿using DG.Tweening;
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class Collectible: Entity
+public class Collectible : Entity
 {
-    [SerializeField] int score = 10; //Can using factory pattern in future
-    [SerializeField] IntEventChannel scoreChannel;
+    [SerializeField] private GameObject collectVFX;
+    [SerializeField] private int score = 10;
+
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            scoreChannel.Invoke(score);
+            if (collectVFX != null)
+            {
+                Instantiate(collectVFX, transform.position, Quaternion.identity);
+            }
+
+            GameManager.Instance?.AddScore(score);
+
             Destroy(gameObject);
         }
     }

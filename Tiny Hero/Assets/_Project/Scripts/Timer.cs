@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 public abstract class Timer 
 { 
     protected float initialTime;
-    protected float Time { get; set; }
+    public float Time { get; protected set; }
     public bool IsRunning { get; private set; } = false;
 
     public float progress => initialTime > 0 ? Time / initialTime : 0f; // 0f if initialTime is 0 to avoid division by zero

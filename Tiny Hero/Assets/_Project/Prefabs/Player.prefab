@@ -1891,7 +1891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 597237639532215639}
   - component: {fileID: 7661233161108490749}
-  - component: {fileID: 6006765336949730246}
+  - component: {fileID: 3454421938577550334}
   - component: {fileID: 6195353387038680375}
   - component: {fileID: 8471342571321401024}
   - component: {fileID: 8769655186140220785}
@@ -1913,7 +1913,7 @@ Transform:
   m_GameObject: {fileID: 6180951690378818460}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -17.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1945,7 +1945,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6006765336949730246
+--- !u!114 &3454421938577550334
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1954,12 +1954,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 6180951690378818460}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08205f31ff7bac84e9828ce69d98f1fb, type: 3}
+  m_Script: {fileID: 11500000, guid: ac1b9bc1f58cd114ba3d69979d322c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
-  playerHealthChannel: {fileID: 11400000, guid: a529f39dd10273443aeb09c05ea2f8b8, type: 2}
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6195353387038680375}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnPlayerDeath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnHealthChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: HealthHUD, Assembly-CSharp
+        m_MethodName: UpdateHealthBar
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  player: {fileID: 6195353387038680375}
 --- !u!114 &6195353387038680375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1975,6 +2005,7 @@ MonoBehaviour:
   rb: {fileID: 4673892431647783496}
   groundChecker: {fileID: 8471342571321401024}
   animator: {fileID: 7661233161108490749}
+  health: {fileID: 3454421938577550334}
   freeLookVCam: {fileID: 0}
   input: {fileID: 11400000, guid: e0945a9ac84741544976746860c2a754, type: 2}
   moveSpeed: 300
@@ -1986,9 +2017,20 @@ MonoBehaviour:
   gravityMultiplier: 2
   maxJumpTimes: 2
   jumpCount: 0
-  dashForce: 10
+  dashParticle: {fileID: 0}
+  dashAfterImage: {fileID: 5887433112890367670, guid: 2bebc6b740e4f9a478676fc4dcc5f2d2, type: 3}
+  dashMaterial: {fileID: 2100000, guid: d59534218beb11c42895fbb36513ed9f, type: 2}
+  dashForce: 5
   dashCooldown: 1
   dashDuration: 0.2
+  attackCooldown: 0.6
+  attackDistance: 1
+  attackDamage: 10
+  skillQData: {fileID: 11400000, guid: 3bfbb6837dab1714bbf30f423d9c985a, type: 2}
+  skillEData: {fileID: 11400000, guid: 4d772f9252ac8b546a4a2839efa9a259, type: 2}
+  skillRData: {fileID: 11400000, guid: 43e1f722485e81d44b67efabc931ebb3, type: 2}
+  defendEffect: {fileID: 1535609301505136466, guid: ca14a69c1d76c074ba6e231b797b4f2d, type: 3}
+  stateMachine: {fileID: 0}
 --- !u!114 &8471342571321401024
 MonoBehaviour:
   m_ObjectHideFlags: 0

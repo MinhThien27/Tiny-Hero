@@ -11,6 +11,7 @@ public class JumpState : StateBase
     {
         Debug.Log("Jump State Entered");
         animator.CrossFade(JumpHash, crossFadeDuration);
+        //player.jumpCount++;
     }
 
     public override void OnFixedUpdate()
@@ -23,6 +24,6 @@ public class JumpState : StateBase
     {
         Debug.Log("Exit Jump State");
         // Optionally reset any dash-related parameters or states here
-        player.ResetJumpCountIfGrounded();
+        //player.ResetJumpCountIfGrounded();
     }
 }

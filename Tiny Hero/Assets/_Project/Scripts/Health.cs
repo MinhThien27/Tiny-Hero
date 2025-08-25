@@ -1,35 +1,87 @@
-﻿using System.Runtime.InteropServices.WindowsRuntime;
+﻿using System;
+using System.Collections;
+using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class Health : MonoBehaviour 
+public interface IDamageable
+{
+    bool CanTakeDamage { get; }
+    void TakeDamage(int damage);
+}
+public class Health : MonoBehaviour, IDamageable
 {
     [SerializeField] int maxHealth = 100;
-    [SerializeField] int currentHealth;
+    [SerializeField] public int currentHealth { get; private set; }
+
+    public GameObject gethitEffect;
+
     public bool isDeath => currentHealth <= 0; 
+    public virtual bool CanTakeDamage => !isDeath;
+    public bool isTakeDamaged {  get; private set; }
 
-    [SerializeField] FloatEventChannel playerHealthChannel;
+    [Header("Events")]
+    [SerializeField] private UnityEvent OnDeath;
+    [SerializeField] public event Action<int, int> OnHealthChanged;
 
-    private void Awake()
+    protected virtual void Awake()
     {
         currentHealth = maxHealth;
     }
 
-    private void Start()
+     protected void Start()
     {
         PublishHealthPercent();
     }
 
-    public void TakeDamage(int damage)
+    public virtual void TakeDamage(int damage)
     {
+        if (!CanTakeDamage) return;
+
         currentHealth -= damage;
+        Instantiate(gethitEffect, transform.position, Quaternion.identity, transform);
+
+        isTakeDamaged = true;
+
+        PublishHealthPercent();
+
+        if (isDeath)
+        {
+            Die();
+        }
+        StartCoroutine(ResetDamageFlag(0.5f));
+    }
+
+    public bool IsFullHealth()
+    {
+        return currentHealth >= maxHealth;
+    }
+
+    public void Heal(int amount)
+    {
+        if (isDeath) return;
+        currentHealth += amount;
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
         PublishHealthPercent();
     }
 
     private void PublishHealthPercent()
     {
-        if (playerHealthChannel != null)
-        {
-            playerHealthChannel.Invoke(currentHealth / (float)maxHealth);
-        }
+        OnHealthChanged?.Invoke(currentHealth, maxHealth);
+    }
+
+    public void Die()
+    {
+        currentHealth = 0;
+        OnDeath?.Invoke();
+    }
+
+    private IEnumerator ResetDamageFlag(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        isTakeDamaged = false;
     }
 }

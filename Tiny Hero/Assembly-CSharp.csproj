@@ -60,85 +60,107 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.35f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_Project\Scripts\StateMachine\JumpState.cs" />
-    <Compile Include="Assets\_Project\Scripts\SpawnSystem\EntitySpawnManager.cs" />
     <Compile Include="Assets\_Project\Scripts\StateMachine\AttackState.cs" />
     <Compile Include="Assets\Low Poly 3D Chest Customizable plus Shattered\Scripts\ShatterableBehaviour.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\2D\MouseScrollZoom2D.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\ExampleHelpWindow.cs" />
-    <Compile Include="Assets\_Project\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\_Project\Scripts\Enemy\StateMachine\EnemyAttackState.cs" />
     <Compile Include="Assets\_Project\Scripts\StateMachine\DashState.cs" />
     <Compile Include="Assets\_Project\Scripts\StateMachine\IPredicate.cs" />
+    <Compile Include="Assets\_Project\Scripts\Enemy\Posion Damage.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
+    <Compile Include="Assets\_Project\Scripts\Enemy\EnemyBullet.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\CinemachineFadeOutNearbyObjects.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\SpawnInCircle.cs" />
-    <Compile Include="Assets\_Project\Settings\Tiny Hero.cs" />
-    <Compile Include="Assets\_Project\Scripts\SpawnSystem\ISpawnPointStrategy.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
-    <Compile Include="Assets\_Project\Scripts\EventSystem\EventListener.cs" />
+    <Compile Include="Assets\_Project\Scripts\Enemy\PlayerDetector.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement2D.cs" />
-    <Compile Include="Assets\_Project\Scripts\StateMachine\Transition.cs" />
-    <Compile Include="Assets\_Project\Scripts\EnemyAttackState.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\InputSystemHelper.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\BossCamera\BossLookAt.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
-    <Compile Include="Assets\_Project\Scripts\SpawnEffects.cs" />
-    <Compile Include="Assets\_Project\Scripts\EventSystem\FloatEventChannel.cs" />
-    <Compile Include="Assets\_Project\Scripts\GroundChecker.cs" />
+    <Compile Include="Assets\_Project\Scripts\Enemy\StateMachine\EnemyWanderState.cs" />
+    <Compile Include="Assets\_Project\Scripts\SpawnSystem\SpawnEffects.cs" />
+    <Compile Include="Assets\_Project\Scripts\StateMachine\DieState.cs" />
     <Compile Include="Assets\_Project\Scripts\Health.cs" />
-    <Compile Include="Assets\_Project\Scripts\PlatformCollisionHandler.cs" />
+    <Compile Include="Assets\_Project\Scripts\Enemy\StateMachine\EnemyBaseState.cs" />
     <Compile Include="Assets\_Project\Scripts\StateMachine\StateBase.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\BossCamera\CustomLockCameraY.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\MixingCameraBlend.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetTargetController.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\DualTarget\PointAtAimTarget.cs" />
-    <Compile Include="Assets\_Project\Scripts\IDetectionStrategy.cs" />
     <Compile Include="Assets\_Project\Scripts\SpawnSystem\LinearSpawnPointStrategy.cs" />
-    <Compile Include="Assets\_Project\Scripts\StateMachine\FunctionPredicate.cs" />
-    <Compile Include="Assets\_Project\Scripts\SpawnSystem\RandomSpawnPointStrategy.cs" />
-    <Compile Include="Assets\_Project\Scripts\StateMachine\IState.cs" />
-    <Compile Include="Assets\_Project\Scripts\EnemyWanderState.cs" />
     <Compile Include="Assets\_Project\Scripts\CameraManager.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerMovement.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetProperty.cs" />
-    <Compile Include="Assets\_Project\Scripts\EnemyBaseState.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
-    <Compile Include="Assets\_Project\Scripts\EnemyChaseState.cs" />
-    <Compile Include="Assets\_Project\Scripts\SpawnSystem\EntityFactory.cs" />
-    <Compile Include="Assets\_Project\Scripts\StateMachine\LocomotionState.cs" />
-    <Compile Include="Assets\_Project\Scripts\PlayerDetector.cs" />
+    <Compile Include="Assets\_Project\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\_Project\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\_Project\Scripts\SpawnSystem\EntitySpawner.cs" />
+    <Compile Include="Assets\_Project\Scripts\Player\SkillE.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\SimpleElevator.cs" />
-    <Compile Include="Assets\_Project\Scripts\SpawnSystem\IEntityFactory.cs" />
+    <Compile Include="Assets\_Project\Scripts\UI\SkillHUD.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\3rdPersonWithAimMode\ActivateOnKeypress.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\DualTarget\MoveAimTarget.cs" />
+    <Compile Include="Assets\_Project\Scripts\UI\ManaHUD.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\ActivateCamOnPlay.cs" />
-    <Compile Include="Assets\_Project\Scripts\EventSystem\FloatEventListener.cs" />
+    <Compile Include="Assets\_Project\Scripts\UI\ScoreUI.cs" />
+    <Compile Include="Assets\_Project\Scripts\Player\SkillSO.cs" />
     <Compile Include="Assets\_Project\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\ThirdPersonFollowDistanceModifier.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
-    <Compile Include="Assets\_Project\Scripts\ScoreUI.cs" />
-    <Compile Include="Assets\_Project\Scripts\Enemy.cs" />
+    <Compile Include="Assets\_Project\Scripts\StateMachine\SkillState.cs" />
     <Compile Include="Assets\_Project\Scripts\Entity.cs" />
     <Compile Include="Assets\_Project\Scripts\PlatformMover.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\2D\LoseSightWhenTargetsFallsOffThePlatform.cs" />
-    <Compile Include="Assets\MyTools\Setup.cs" />
+    <Compile Include="Assets\_Project\Scripts\StateMachine\DefendState.cs" />
     <Compile Include="Assets\_Project\Scripts\Timer.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\Trigger volumes\GenericTrigger.cs" />
-    <Compile Include="Assets\_Project\Scripts\EventSystem\IntEventListener.cs" />
-    <Compile Include="Assets\_Project\Scripts\EventSystem\IntEventChannel.cs" />
-    <Compile Include="Assets\_Project\Scripts\EventSystem\EventChannel.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovementNoCamera.cs" />
+    <Compile Include="Assets\_Project\Scripts\Player\PlatformCollisionHandler.cs" />
     <Compile Include="Assets\_Project\Scripts\Collectible.cs" />
     <Compile Include="Assets\_Project\Scripts\StateMachine\StateMachine.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\InvokeEventFromInspector.cs" />
     <Compile Include="Assets\_Project\Scripts\SpawnSystem\EntityData.cs" />
     <Compile Include="Assets\_Project\Scripts\SpawnSystem\CollectableSpawnManager.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
+    <Compile Include="Assets\_Project\Scripts\Mana.cs" />
     <Compile Include="Assets\_Project\Scripts\SpawnSystem\CollectibleData.cs" />
+    <Compile Include="Assets\_Project\Scripts\Enemy\IDetectionStrategy.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement.cs" />
-    <Compile Include="Assets\_Project\Scripts\ConeDetectionStrategy.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerLookAt.cs" />
+    <Compile Include="Assets\_Project\Scripts\StateMachine\JumpState.cs" />
+    <Compile Include="Assets\_Project\Scripts\Enemy\StateMachine\EnemyChaseState.cs" />
+    <Compile Include="Assets\_Project\Scripts\SpawnSystem\EntitySpawnManager.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\2D\MouseScrollZoom2D.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\SpawnInCircle.cs" />
+    <Compile Include="Assets\_Project\Settings\Tiny Hero.cs" />
+    <Compile Include="Assets\_Project\Scripts\SpawnSystem\ISpawnPointStrategy.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
+    <Compile Include="Assets\NamuFX\_CommonAssets\Scripts\Viewer.cs" />
+    <Compile Include="Assets\_Project\Scripts\SlashDamage.cs" />
+    <Compile Include="Assets\_Project\Scripts\ItemSO.cs" />
+    <Compile Include="Assets\_Project\Scripts\StateMachine\Transition.cs" />
+    <Compile Include="Assets\Brawler Animations Sample\DisplayAnimation.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\InputSystemHelper.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\BossCamera\BossLookAt.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetTargetController.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\DualTarget\PointAtAimTarget.cs" />
+    <Compile Include="Assets\_Project\Scripts\Player\SkillQ.cs" />
+    <Compile Include="Assets\_Project\Scripts\StateMachine\FunctionPredicate.cs" />
+    <Compile Include="Assets\_Project\Scripts\SpawnSystem\RandomSpawnPointStrategy.cs" />
+    <Compile Include="Assets\_Project\Scripts\Player\SkillR.cs" />
+    <Compile Include="Assets\_Project\Scripts\Enemy\StateMachine\EnemyHitState.cs" />
+    <Compile Include="Assets\_Project\Scripts\StateMachine\IState.cs" />
+    <Compile Include="Assets\_Project\Scripts\Player\ISkill.cs" />
+    <Compile Include="Assets\_Project\Scripts\ExplosionDamage.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetProperty.cs" />
+    <Compile Include="Assets\_Project\Scripts\UI\HealthHUD.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\_Project\Scripts\Player\DashAfterImage.cs" />
+    <Compile Include="Assets\DoubleL\Demo\DemoCameraController.cs" />
+    <Compile Include="Assets\_Project\Scripts\SpawnSystem\EntityFactory.cs" />
+    <Compile Include="Assets\_Project\Scripts\StateMachine\LocomotionState.cs" />
+    <Compile Include="Assets\_Project\Scripts\Player\PlayerHealth.cs" />
+    <Compile Include="Assets\_Project\Scripts\StateMachine\HitState.cs" />
+    <Compile Include="Assets\_Project\Scripts\SpawnSystem\IEntityFactory.cs" />
+    <Compile Include="Assets\_Project\Scripts\Player\SkillFactory.cs" />
+    <Compile Include="Assets\_Project\Scripts\Enemy\StateMachine\EnemyDieState.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\ThirdPersonFollowDistanceModifier.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
+    <Compile Include="Assets\MyTools\Setup.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovementNoCamera.cs" />
+    <Compile Include="Assets\_Project\Scripts\Enemy\ConeDetectionStrategy.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
+    <Compile Include="Assets\_Project\Scripts\ItemPickup.cs" />
+    <Compile Include="Assets\_Project\Scripts\Player\GroundChecker.cs" />
+    <Compile Include="Assets\_Project\Scripts\Player\WeaponCollider.cs" />
     <Compile Include="Assets\_Project\Scripts\StateMachine\ITransition.cs" />
     <Compile Include="Assets\_Project\Scripts\Input\InputReader.cs" />
   </ItemGroup>
@@ -148,11 +170,14 @@
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_SETTINGS.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\SelectionHistory\Readme.txt" />
+    <None Include="Assets\FSP\Platformer\Skybox Shaders\RGBM Cubed Skybox.shader" />
     <None Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\FadeOut.shader" />
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\FSP\Platformer\Skybox Shaders\Horizontal Skybox.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\FSP\Platformer\Skybox Shaders\Horizon With Sun Skybox.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\Anywhere Door\ScreenCutoutShader.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -161,16 +186,20 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Dark_Brown_GUI_kit\Dark_Brown_GUI_kit.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts\_Make your own text effect.txt" />
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_PASSES.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\FSP\Platformer\Skybox Shaders\Gradient Skybox.shader" />
+    <None Include="Assets\FXIFIED\common\Shaders\RimLight.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_URP.cginc" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Hovl Studio\Magic effects pack\Demo scene\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -1026,8 +1055,8 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.35f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
@@ -1038,12 +1067,96 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
@@ -1062,20 +1175,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline">
@@ -1090,28 +1199,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
@@ -1126,12 +1219,20 @@
       <HintPath>Library\ScriptAssemblies\KBCore.Refs.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
@@ -1142,16 +1243,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Cinemachine">
       <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
@@ -1159,14 +1252,6 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{0530F43B-9850-64DC-67AD-E242B0147E3B}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
-    <ProjectReference Include="CFXR.WelcomeScreen.csproj">
-      <Project>{D7A653FE-6A9E-D7F0-CA67-76B5EF39A8EC}</Project>
-      <Name>CFXR.WelcomeScreen</Name>
-    </ProjectReference>
-    <ProjectReference Include="KinoBloom.Runtime.csproj">
-      <Project>{00FEA7E9-B203-A738-AC61-64E31C39D162}</Project>
-      <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AimingRig.csproj">
       <Project>{5118410C-C338-F56C-CCAF-EB3CAB3B386D}</Project>
@@ -1180,10 +1265,6 @@
       <Project>{92BDEFFA-C57E-84DC-A78D-A91BA3B6B791}</Project>
       <Name>CFXRRuntime</Name>
     </ProjectReference>
-    <ProjectReference Include="CFXREditor.csproj">
-      <Project>{7838806D-70AA-2C7C-00ED-5CF0732FCD75}</Project>
-      <Name>CFXREditor</Name>
-    </ProjectReference>
     <ProjectReference Include="CFXRDemo.csproj">
       <Project>{55F7C7B3-53B4-8CA6-B01D-267701A41BF6}</Project>
       <Name>CFXRDemo</Name>
@@ -1191,6 +1272,18 @@
     <ProjectReference Include="sc.utilities.selectionhistory.editor.csproj">
       <Project>{ADBC0459-536C-D9FF-B501-B6C0E73B5173}</Project>
       <Name>sc.utilities.selectionhistory.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXR.WelcomeScreen.csproj">
+      <Project>{D7A653FE-6A9E-D7F0-CA67-76B5EF39A8EC}</Project>
+      <Name>CFXR.WelcomeScreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="KinoBloom.Runtime.csproj">
+      <Project>{00FEA7E9-B203-A738-AC61-64E31C39D162}</Project>
+      <Name>KinoBloom.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXREditor.csproj">
+      <Project>{7838806D-70AA-2C7C-00ED-5CF0732FCD75}</Project>
+      <Name>CFXREditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -17,9 +17,12 @@ public class InputReader : ScriptableObject, IPlayerActions
     public event UnityAction<bool> Jump = delegate { };
     public event UnityAction<bool> Dash = delegate { };
     public event UnityAction Attack = delegate { };
+    public event UnityAction<bool> Defend = delegate { };
+    public event UnityAction SkillQ = delegate { };
+    public event UnityAction SkillE = delegate { };
+    public event UnityAction SkillR = delegate { };
 
     TinyHero inputActions;
-
     private void OnEnable()
     {
         if (inputActions == null)
@@ -53,7 +56,6 @@ public class InputReader : ScriptableObject, IPlayerActions
         if (context.phase == InputActionPhase.Started)
         {
             Attack.Invoke();
-            Debug.Log("Has invoke Attack");
         }
     }
 
@@ -93,6 +95,43 @@ public class InputReader : ScriptableObject, IPlayerActions
             case InputActionPhase.Canceled:
                 Dash.Invoke(false);
                 break;
+        }
+    }
+
+    public void OnDefend(InputAction.CallbackContext context)
+    {
+        switch (context.phase)
+        {
+            case InputActionPhase.Started:
+                Defend.Invoke(true);
+                break;
+            case InputActionPhase.Canceled:
+                Defend.Invoke(false);
+                break;
+        }
+    }
+
+    public void OnSkillQ(InputAction.CallbackContext context)
+    {
+        if (context.phase == InputActionPhase.Started)
+        {
+            SkillQ.Invoke();
+        }
+    }
+
+    public void OnSkillE(InputAction.CallbackContext context)
+    {
+        if (context.phase == InputActionPhase.Started)
+        {
+            SkillE.Invoke();
+        }
+    }
+
+    public void OnSkillR(InputAction.CallbackContext context)
+    {
+        if (context.phase == InputActionPhase.Started)
+        {
+            SkillR.Invoke();
         }
     }
 }

@@ -80,6 +80,42 @@ public partial class @TinyHero: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Defend"",
+                    ""type"": ""Button"",
+                    ""id"": ""d60fc320-c189-47a4-89e9-f260dc665ff4"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SkillQ"",
+                    ""type"": ""Button"",
+                    ""id"": ""ca698915-9eb8-4910-9891-2518e6ec37b5"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SkillE"",
+                    ""type"": ""Button"",
+                    ""id"": ""46f6c0b5-2d1b-4fa8-8b2c-07c883a64bfc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SkillR"",
+                    ""type"": ""Button"",
+                    ""id"": ""c092b090-09fb-40df-b059-67c4e9985d15"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -333,6 +369,50 @@ public partial class @TinyHero: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""32febf56-8462-422e-ad56-15b725646815"",
+                    ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Defend"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3b627819-3f48-4d46-a894-6930b0ed3f3a"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SkillQ"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""23e9e979-c34f-413f-8d9b-fc2ee5c07813"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SkillE"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bb04ecd2-52dc-45d2-baa6-b16861e91e27"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SkillR"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -926,6 +1006,10 @@ public partial class @TinyHero: IInputActionCollection2, IDisposable
         m_Player_MouseControlCamera = m_Player.FindAction("MouseControlCamera", throwIfNotFound: true);
         m_Player_Run = m_Player.FindAction("Run", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
+        m_Player_Defend = m_Player.FindAction("Defend", throwIfNotFound: true);
+        m_Player_SkillQ = m_Player.FindAction("SkillQ", throwIfNotFound: true);
+        m_Player_SkillE = m_Player.FindAction("SkillE", throwIfNotFound: true);
+        m_Player_SkillR = m_Player.FindAction("SkillR", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1005,6 +1089,10 @@ public partial class @TinyHero: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_MouseControlCamera;
     private readonly InputAction m_Player_Run;
     private readonly InputAction m_Player_Jump;
+    private readonly InputAction m_Player_Defend;
+    private readonly InputAction m_Player_SkillQ;
+    private readonly InputAction m_Player_SkillE;
+    private readonly InputAction m_Player_SkillR;
     public struct PlayerActions
     {
         private @TinyHero m_Wrapper;
@@ -1015,6 +1103,10 @@ public partial class @TinyHero: IInputActionCollection2, IDisposable
         public InputAction @MouseControlCamera => m_Wrapper.m_Player_MouseControlCamera;
         public InputAction @Run => m_Wrapper.m_Player_Run;
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
+        public InputAction @Defend => m_Wrapper.m_Player_Defend;
+        public InputAction @SkillQ => m_Wrapper.m_Player_SkillQ;
+        public InputAction @SkillE => m_Wrapper.m_Player_SkillE;
+        public InputAction @SkillR => m_Wrapper.m_Player_SkillR;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1042,6 +1134,18 @@ public partial class @TinyHero: IInputActionCollection2, IDisposable
             @Jump.started += instance.OnJump;
             @Jump.performed += instance.OnJump;
             @Jump.canceled += instance.OnJump;
+            @Defend.started += instance.OnDefend;
+            @Defend.performed += instance.OnDefend;
+            @Defend.canceled += instance.OnDefend;
+            @SkillQ.started += instance.OnSkillQ;
+            @SkillQ.performed += instance.OnSkillQ;
+            @SkillQ.canceled += instance.OnSkillQ;
+            @SkillE.started += instance.OnSkillE;
+            @SkillE.performed += instance.OnSkillE;
+            @SkillE.canceled += instance.OnSkillE;
+            @SkillR.started += instance.OnSkillR;
+            @SkillR.performed += instance.OnSkillR;
+            @SkillR.canceled += instance.OnSkillR;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -1064,6 +1168,18 @@ public partial class @TinyHero: IInputActionCollection2, IDisposable
             @Jump.started -= instance.OnJump;
             @Jump.performed -= instance.OnJump;
             @Jump.canceled -= instance.OnJump;
+            @Defend.started -= instance.OnDefend;
+            @Defend.performed -= instance.OnDefend;
+            @Defend.canceled -= instance.OnDefend;
+            @SkillQ.started -= instance.OnSkillQ;
+            @SkillQ.performed -= instance.OnSkillQ;
+            @SkillQ.canceled -= instance.OnSkillQ;
+            @SkillE.started -= instance.OnSkillE;
+            @SkillE.performed -= instance.OnSkillE;
+            @SkillE.canceled -= instance.OnSkillE;
+            @SkillR.started -= instance.OnSkillR;
+            @SkillR.performed -= instance.OnSkillR;
+            @SkillR.canceled -= instance.OnSkillR;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -1252,6 +1368,10 @@ public partial class @TinyHero: IInputActionCollection2, IDisposable
         void OnMouseControlCamera(InputAction.CallbackContext context);
         void OnRun(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
+        void OnDefend(InputAction.CallbackContext context);
+        void OnSkillQ(InputAction.CallbackContext context);
+        void OnSkillE(InputAction.CallbackContext context);
+        void OnSkillR(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

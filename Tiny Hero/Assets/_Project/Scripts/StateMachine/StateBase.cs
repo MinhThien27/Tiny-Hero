@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public abstract class StateBase : IState
 {
     protected readonly PlayerController player;
@@ -8,9 +7,10 @@ public abstract class StateBase : IState
     public static readonly int LocomotionHash = Animator.StringToHash("Locomotion");
     public static readonly int JumpHash = Animator.StringToHash("Jump");
     public static readonly int DashHash = Animator.StringToHash("Dash");
-
-    //Attack
+    public static readonly int dieHash = Animator.StringToHash("Die");
     public static readonly int AttackHash = Animator.StringToHash("AttackNormal");
+    public static readonly int HitHash = Animator.StringToHash("Hit");
+    public static readonly int DefendHash = Animator.StringToHash("Defend");
 
     protected const float crossFadeDuration = 0.1f;
 

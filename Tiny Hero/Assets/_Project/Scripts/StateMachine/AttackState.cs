@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class AttackState : StateBase
@@ -15,5 +16,10 @@ public class AttackState : StateBase
     public override void OnFixedUpdate()
     {
         //player.HandleMovement();
+    }
+
+    public override void OnExit()
+    {
+
     }
 }
