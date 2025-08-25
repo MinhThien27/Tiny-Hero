@@ -83,6 +83,7 @@
     <Compile Include="Assets\_Project\Scripts\SpawnSystem\LinearSpawnPointStrategy.cs" />
     <Compile Include="Assets\_Project\Scripts\CameraManager.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerMovement.cs" />
+    <Compile Include="Assets\_Project\Scripts\Enemy\EnemyExplosion.cs" />
     <Compile Include="Assets\_Project\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\_Project\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\_Project\Scripts\SpawnSystem\EntitySpawner.cs" />

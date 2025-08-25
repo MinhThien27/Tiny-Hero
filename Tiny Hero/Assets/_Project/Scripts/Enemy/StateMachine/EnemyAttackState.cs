@@ -26,9 +26,6 @@ public class EnemyAttackState : EnemyBaseState
     }
     public override void OnUpdate()
     {
-        //agent.SetDestination(player.position);
-        //enemy.Attack();
-
         switch (enemyType)
         {
             case EnemyType.Melee:
@@ -50,7 +47,7 @@ public class EnemyAttackState : EnemyBaseState
                 break;
         }
 
-        enemy.Attack();
+        //enemy.Attack();
     }
     public override void OnFixedUpdate()
     {

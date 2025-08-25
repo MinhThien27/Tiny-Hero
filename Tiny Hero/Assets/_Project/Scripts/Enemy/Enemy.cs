@@ -28,7 +28,11 @@ public class Enemy : Entity
 
     [HideInInspector] public StateMachine stateMachine;
 
-    CountdownTimer attackTimer;
+    public CountdownTimer attackTimer;
+
+    public bool isExplosion = false;
+
+    //public bool IsAlreadyAttacking { get; private set; }
 
     private void OnValidate() => this.ValidateRefs();
 
@@ -52,7 +56,7 @@ public class Enemy : Entity
         Any(hitState, new FunctionPredicate(() => health.isTakeDamaged));
         
 
-        Any(dieState, new FunctionPredicate(() => health.isDeath));
+        Any(dieState, new FunctionPredicate(() => health.isDeath || isExplosion));
 
         stateMachine.SetState(wanderState);
     }
@@ -90,25 +94,30 @@ public class Enemy : Entity
         }
     }
 
-    public void MeleeAttack()
+    void MeleeAttack()
     {
         playerDetector.PlayerHealth.TakeDamage(attackDamage);
+
+        //IsAlreadyAttacking = true;
     }
 
-    public void RangeAttack()
+    void RangeAttack()
     {
         if (bulletPrefab == null || playerDetector.Player == null) return;
 
         GameObject bulletGO = Instantiate(bulletPrefab, transform.position + Vector3.up , Quaternion.identity, transform);
         EnemyBullet bullet = bulletGO.GetComponent<EnemyBullet>();
         bullet.SetTarget(playerDetector.Player);
+
+        //IsAlreadyAttacking = true;
     }
 
     public void OnEnemyDeath()
     {
-        Destroy(gameObject, 2f);
         Quaternion rotation = transform.rotation * Quaternion.Euler(-90f, 0f, 0f);
         if (deadEffect != null)
             Instantiate(deadEffect, transform.position, rotation, transform);
+        
+        Destroy(gameObject, 2f);
     }
 }

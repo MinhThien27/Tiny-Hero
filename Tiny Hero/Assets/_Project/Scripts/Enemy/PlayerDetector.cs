@@ -10,7 +10,7 @@ public class PlayerDetector : MonoBehaviour
     [SerializeField] float detectionRadius = 10f; // Large circle for close detection
     [SerializeField] float innerDetectionRadius = 5f; // Small circle for close detection
     [SerializeField] float detectionCooldown = 1f;
-    [SerializeField] float attackRange = 1f;
+    float attackRange = 1f;
 
     [SerializeField] Enemy Enemy { get; set; } 
     public Transform Player { get; private set; }
