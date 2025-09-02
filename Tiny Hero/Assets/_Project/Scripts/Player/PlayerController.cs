@@ -40,9 +40,9 @@ public class PlayerController : ValidatedMonoBehaviour
     [SerializeField] float dashDuration = 0.2f;
 
     [Header("AttackNormalSetting")]
-    [SerializeField] float attackCooldown = 0.5f;
-    [SerializeField] float attackDistance = 1f;
-    [SerializeField] int attackDamage = 10;
+    [SerializeField] float attackCooldown = 1f;
+    [SerializeField] WeaponCollider weaponCollider;
+    AttackState attackState;
 
     [Header("Skills Settings")]
     public SkillSO skillQData;
@@ -57,6 +57,7 @@ public class PlayerController : ValidatedMonoBehaviour
     [SerializeField] GameObject defendEffect;
     public bool isDefending { get; private set; }
     public bool isCastingSkill => skillQTimer.IsRunning || skillETimer.IsRunning || skillRTimer.IsRunning;
+    public bool isAttacking => attackCooldownTimer.IsRunning;
 
     Transform mainCamera;
 
@@ -109,7 +110,7 @@ public class PlayerController : ValidatedMonoBehaviour
         input.Defend += OnDefend;
         input.SkillQ += OnSkillQ;
         input.SkillE += OnSkillE;
-        input.SkillR += OnSkillR; 
+        input.SkillR += OnSkillR;
     }
 
 
@@ -123,6 +124,7 @@ public class PlayerController : ValidatedMonoBehaviour
         input.SkillQ -= OnSkillQ;
         input.SkillE -= OnSkillE;
         input.SkillR -= OnSkillR;
+
     }
 
     private void Awake()
@@ -136,6 +138,8 @@ public class PlayerController : ValidatedMonoBehaviour
         );
 
         rb.freezeRotation = true;
+
+        weaponCollider = GetComponentInChildren<WeaponCollider>();
 
         meshRenderer = GetComponentInChildren<MeshRenderer>();
         originalMaterial = meshRenderer != null ? meshRenderer.material : null;
@@ -156,10 +160,10 @@ public class PlayerController : ValidatedMonoBehaviour
         stateMachine = new StateMachine();
 
         //Declare states
+        attackState = new AttackState(this, animator, weaponCollider);
         var locomotionState = new LocomotionState(this, animator);
         var jumpState = new JumpState(this, animator);
         var dashState = new DashState(this, animator, dashMaterial);
-        var attackState = new AttackState(this, animator);
         var dieState = new DieState(this, animator);
         var hitState = new HitState(this, animator);
         var defendState = new DefendState(this, animator, defendEffect);
@@ -276,7 +280,6 @@ public class PlayerController : ValidatedMonoBehaviour
         stateMachine.Update();
 
         UpdateAnimator();
-
     }
     private void FixedUpdate()
     {
@@ -319,31 +322,53 @@ public class PlayerController : ValidatedMonoBehaviour
         }
     }
 
+    public void PickupWeapon(WeaponCollider wpCol)
+    {
+        weaponCollider = wpCol;
+
+        attackState = new AttackState(this, animator, wpCol);
+
+        stateMachine.ReplaceTransition(typeof(AttackState), attackState);
+    }
     private void OnAttack()
     {
-        if (!attackCooldownTimer.IsRunning)
+        if (!attackCooldownTimer.IsRunning && weaponCollider != null)
         {
             attackCooldownTimer.Start();
         }
     }
 
-    Vector3 lastAttackPos;
 
+    //Vector3 lastAttackPos;
     public void Attack()
     {
-        Vector3 attackPos = transform.position + transform.forward;
-
-        lastAttackPos = attackPos;
-
-        Collider[] hitEnemies = Physics.OverlapSphere(attackPos, attackDistance);
-
-        foreach (var enemy in hitEnemies)
+        switch (weaponCollider.weaponData.weaponType)
         {
-            if (enemy.CompareTag("Enemy"))
-            {
-                enemy.GetComponent<Health>()?.TakeDamage(attackDamage);
-            }
+            case WeaponType.Sword:
+                Debug.Log("is already hit:" + weaponCollider.isAlreadyHit);
+                weaponCollider.ResetHit();
+                break;
+            case WeaponType.Bow:
+                //TODO: When using bow, use freeVCam to zoom in and shot at the center of the screen
+                weaponCollider.ResetHit();
+                Debug.Log("is using bow");
+                weaponCollider.Fire();
+                break;
         }
+
+        //Vector3 attackPos = transform.position + transform.forward;
+
+        //lastAttackPos = attackPos;
+
+        //Collider[] hitEnemies = Physics.OverlapSphere(attackPos, attackDistance);
+
+        //foreach (var enemy in hitEnemies)
+        //{
+        //    if (enemy.CompareTag("Enemy"))
+        //    {
+        //        enemy.GetComponent<Health>()?.TakeDamage(attackDamage);
+        //    }
+        //}
     }
 
     public void StopSkillTimer(ISkill skill)
@@ -399,14 +424,6 @@ public class PlayerController : ValidatedMonoBehaviour
         isDefending = performed;
     }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(lastAttackPos, attackDistance);
-        Gizmos.color = Color.blue;
-        Gizmos.DrawWireSphere(transform.position, 2f); // Skill Q range
-    }
-
     private void HandleTimer()
     {
         foreach (var timer in timers)
@@ -417,7 +434,6 @@ public class PlayerController : ValidatedMonoBehaviour
 
     public void HandleJump()
     {
-        //If not jumping and grounded, keep jump velocity at zero
         if (!jumpTimer.IsRunning && groundChecker.IsGrounded)
         {
             jumpVelocity = ZeroF;
@@ -427,15 +443,11 @@ public class PlayerController : ValidatedMonoBehaviour
 
         if (!jumpTimer.IsRunning) 
         {
-            //Gravity take over
             jumpVelocity += Physics.gravity.y * gravityMultiplier * Time.fixedDeltaTime;
         }
 
-        //Apply velocity
         rb.velocity = new Vector3(rb.velocity.x, jumpVelocity, rb.velocity.z);
     }
-
-
 
     private void UpdateAnimator()
     {

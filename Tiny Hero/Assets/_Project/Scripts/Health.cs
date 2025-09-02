@@ -43,6 +43,8 @@ public class Health : MonoBehaviour, IDamageable
 
         isTakeDamaged = true;
 
+        Debug.Log($"{gameObject.name} took {damage} damage. Current health: {currentHealth}/{maxHealth}");
+
         PublishHealthPercent();
 
         if (isDeath)

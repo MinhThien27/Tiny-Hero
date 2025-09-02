@@ -12,7 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32082a49cb59e3547884f73f243c2aa7, type: 3}
   m_Name: ManaPotion
   m_EditorClassIdentifier: 
-  itemType: 1
+  id: 45613c7f-80ef-434d-a01d-16f3b0ec9283
+  itemName: Mana Potion
+  icon: {fileID: 21300000, guid: 0ed23f914b8b26e4c93e21f82811bf98, type: 3}
+  description: A glowing blue concoction infused with arcane energy. Replenishes
+    your magical power to keep spells flowing. (Restores 40 MP instantly)
   itemPrefab: {fileID: 2763452555992974565, guid: f1910046e20f4ea4e9cd386f3456730b, type: 3}
+  itemType: 1
   effectPrefab: {fileID: 3203273403806566452, guid: 13f43f5b4b1378f44a7d05a93c98140c, type: 3}
   value: 10
+  maxStack: 10

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c32eb49361861b34cbafe633a0c864d9, type: 3}
+  m_Name: Sword(Old)
+  m_EditorClassIdentifier: 
+  id: b34c561f-df79-47ef-9073-74f9afd7bb7b
+  itemName: Sword_Old
+  icon: {fileID: 21300000, guid: 4c5fc31039ea4f745b325ade8ac32251, type: 3}
+  description: A old sword
+  itemPrefab: {fileID: 8769610310739167497, guid: 004d67264315dad499cb646551f67084, type: 3}
+  weaponType: 0
+  damage: 10
+  range: 2
+  attackSpeed: 1
+  animationTrigger: AttackNormal

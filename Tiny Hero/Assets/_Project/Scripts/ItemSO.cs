@@ -1,14 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+public class InventoryItem
+{
+    public BaseItemSO itemData;
+    public int quantity;
+
+    public InventoryItem(BaseItemSO so, int qty = 1)
+    {
+        itemData = so;
+        quantity = qty;
+    }
+}
+
 [CreateAssetMenu(fileName = "New Item Data", menuName = "Item/ItemSO", order = 0)]
-public class ItemSO : ScriptableObject
+public class ItemSO : BaseItemSO
 {
     public ItemType itemType;
-    public GameObject itemPrefab;
     public GameObject effectPrefab;
     public int value = 10;
-
+    public int maxStack = 10;
     public bool ApplyEffect(PlayerController player)
     {
         switch (itemType)

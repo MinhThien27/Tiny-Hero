@@ -1,21 +1,21 @@
-using UnityEngine;
-
+﻿using UnityEngine;
 public class ItemPickup : MonoBehaviour
 {
-    [SerializeField] private ItemSO itemData;
+    public ItemSO itemData;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        InventoryHolder inventory = other.GetComponent<InventoryHolder>();
+        if (inventory != null)
         {
-            var player = other.GetComponent<PlayerController>();
-            if (player != null && itemData != null)
+            if (inventory.inventoryData.CanAddItem(itemData))
             {
-                bool isApplied = itemData.ApplyEffect(player);
-                if (isApplied)
-                {
-                    Destroy(gameObject);
-                }
+                inventory.AddItem(itemData);
+                Destroy(gameObject);
+            }
+            else
+            {
+                Debug.Log("Cannot pick up item. Inventory full.");
             }
         }
     }

@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Enemy
   - FxTemporaire
+  - Weapon
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - UI
   - Ground
   - Enemy
-  - 
-  - 
+  - Player
+  - Weapon
   - 
   - 
   - 
