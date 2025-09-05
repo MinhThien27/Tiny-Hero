@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DashState : StateBase
 {
-    ParticleSystem dashParticle;
+    //ParticleSystem dashParticle;
     float afterImageDuration = 0.2f;
     int afterImageCount = 5;
     float timeBetweenAfterImages = 0.02f;
@@ -15,7 +15,7 @@ public class DashState : StateBase
         Debug.Log("Dash State Entered");
 
         //Play dash particle effect
-        dashParticle?.Play();
+        //dashParticle?.Play();
         player.PlayAfterImage(afterImageDuration, afterImageCount, timeBetweenAfterImages);
 
         animator.CrossFade(JumpHash, crossFadeDuration);

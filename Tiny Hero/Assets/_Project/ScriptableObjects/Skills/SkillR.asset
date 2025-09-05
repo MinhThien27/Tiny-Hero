@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillType: 2
   effectPrefab: {fileID: 2720661554805701194, guid: dd1ad40093804be49946e1299a7f0b16, type: 3}
-  manaCost: 10
+  manaCost: 20
   cooldown: 1
   duration: 1
   delayDamage: 0

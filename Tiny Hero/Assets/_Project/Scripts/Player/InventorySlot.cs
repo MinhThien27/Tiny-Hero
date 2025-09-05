@@ -19,24 +19,35 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
         item = newItem;
         inventoryHolder = holder;
 
-        icon.sprite = item.itemData.icon;
-        icon.gameObject.SetActive(true);
-        itemQuantityText.text = item.quantity > 1 ? item.quantity.ToString() : "";
+        if (icon != null)
+        {
+            icon.sprite = item.itemData.icon;
+            icon.gameObject.SetActive(true);
+        }
+
+        if (itemQuantityText != null)
+            itemQuantityText.text = item.quantity > 1 ? item.quantity.ToString() : "";
     }
 
     public void ClearSlot()
     {
         item = null;
+
+        if (icon == null) return;
+
         icon.sprite = null;
         icon.gameObject.SetActive(false);
-        itemQuantityText.text = "";
+
+        if (itemQuantityText != null)
+            itemQuantityText.text = "";
     }
+
 
     public void OnPointerClick(PointerEventData eventData)
     {
         if (!IsEmpty && inventoryHolder != null && inventoryHolder.inventoryUI != null)
         {
-            inventoryHolder.inventoryUI.OnSlotClicked(this);
+            inventoryHolder.inventoryUI.SelectSlot(this);
         }
     }
 }

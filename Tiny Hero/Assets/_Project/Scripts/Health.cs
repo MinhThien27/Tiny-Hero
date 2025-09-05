@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,27 +8,31 @@ public interface IDamageable
     bool CanTakeDamage { get; }
     void TakeDamage(int damage);
 }
+
 public class Health : MonoBehaviour, IDamageable
 {
-    [SerializeField] int maxHealth = 100;
-    [SerializeField] public int currentHealth { get; private set; }
+    [Header("Config")]
+    [SerializeField] private int maxHealth = 100;
+    public int MaxHealth => maxHealth;
+
+    public int CurrentHealth { get; private set; }
 
     public GameObject gethitEffect;
 
-    public bool isDeath => currentHealth <= 0; 
-    public virtual bool CanTakeDamage => !isDeath;
-    public bool isTakeDamaged {  get; private set; }
+    public bool IsDead => CurrentHealth <= 0;
+    public virtual bool CanTakeDamage => !IsDead;
+    public bool IsTakeDamaged { get; private set; }
 
     [Header("Events")]
     [SerializeField] private UnityEvent OnDeath;
-    [SerializeField] public event Action<int, int> OnHealthChanged;
+    public event Action<int, int> OnHealthChanged; // (current, max)
 
     protected virtual void Awake()
     {
-        currentHealth = maxHealth;
+        CurrentHealth = maxHealth;
     }
 
-     protected void Start()
+    protected void Start()
     {
         PublishHealthPercent();
     }
@@ -38,52 +41,55 @@ public class Health : MonoBehaviour, IDamageable
     {
         if (!CanTakeDamage) return;
 
-        currentHealth -= damage;
-        Instantiate(gethitEffect, transform.position, Quaternion.identity, transform);
+        SetHealth(CurrentHealth - damage);
 
-        isTakeDamaged = true;
+        if (gethitEffect != null)
+            Instantiate(gethitEffect, transform.position, Quaternion.identity, transform);
 
-        Debug.Log($"{gameObject.name} took {damage} damage. Current health: {currentHealth}/{maxHealth}");
-
-        PublishHealthPercent();
-
-        if (isDeath)
-        {
-            Die();
-        }
+        IsTakeDamaged = true;
         StartCoroutine(ResetDamageFlag(0.5f));
-    }
 
-    public bool IsFullHealth()
-    {
-        return currentHealth >= maxHealth;
+        Debug.Log($"{gameObject.name} took {damage} damage. Current health: {CurrentHealth}/{maxHealth}");
     }
 
     public void Heal(int amount)
     {
-        if (isDeath) return;
-        currentHealth += amount;
-        if (currentHealth > maxHealth)
+        if (IsDead) return;
+        SetHealth(CurrentHealth + amount);
+    }
+
+    public void SetHealth(int value, bool triggerEvents = true)
+    {
+        CurrentHealth = Mathf.Clamp(value, 0, maxHealth);
+
+        if (triggerEvents)
         {
-            currentHealth = maxHealth;
+            PublishHealthPercent();
+
+            if (IsDead)
+                Die();
         }
-        PublishHealthPercent();
     }
 
     private void PublishHealthPercent()
     {
-        OnHealthChanged?.Invoke(currentHealth, maxHealth);
+        OnHealthChanged?.Invoke(CurrentHealth, maxHealth);
     }
 
-    public void Die()
+    private void Die()
     {
-        currentHealth = 0;
+        CurrentHealth = 0;
         OnDeath?.Invoke();
     }
 
     private IEnumerator ResetDamageFlag(float delay)
     {
         yield return new WaitForSeconds(delay);
-        isTakeDamaged = false;
+        IsTakeDamaged = false;
+    }
+
+    public bool IsFullHealth()
+    {
+        return CurrentHealth >= maxHealth;
     }
 }

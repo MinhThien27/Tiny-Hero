@@ -18,7 +18,8 @@ public enum WeaponType
 {
     Sword,
     Bow,
-    Staff,
-    Dagger,
-    Arrow
+    //Staff,
+    //Dagger,
+    Arrow,
+    Shield
 }

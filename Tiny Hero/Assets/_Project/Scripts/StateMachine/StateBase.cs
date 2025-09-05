@@ -5,6 +5,7 @@ public abstract class StateBase : IState
     protected readonly Animator animator;
 
     public static readonly int LocomotionHash = Animator.StringToHash("Locomotion");
+    public static readonly int LocomotionWeaponHash = Animator.StringToHash("LocomotionWeapon");
     public static readonly int JumpHash = Animator.StringToHash("Jump");
     public static readonly int DashHash = Animator.StringToHash("Dash");
     public static readonly int dieHash = Animator.StringToHash("Die");

@@ -9,6 +9,7 @@ using UnityEngine.Rendering;
 public class CameraManager : ValidatedMonoBehaviour
 {
     [Header("References")]
+    [SerializeField, Anywhere] PlayerController player;
     [SerializeField, Anywhere] InputReader input;
     [SerializeField, Anywhere] CinemachineFreeLook freeLookVCam;
 
@@ -17,6 +18,7 @@ public class CameraManager : ValidatedMonoBehaviour
 
     bool isRMBPressed;
     bool cameraMovementLock;
+    public bool isAimingWithBow;
 
     void OnEnable()
     {
@@ -36,15 +38,17 @@ public class CameraManager : ValidatedMonoBehaviour
     {
         if (cameraMovementLock) return;
 
-        if (isDeviceMouse && !isRMBPressed) return;
+        if (isDeviceMouse && !isRMBPressed && !isAimingWithBow) return;
 
-        // If the device is mouse use fixedDeltaTime, otherwise use deltaTime
         float deviceMultiplier = isDeviceMouse ? Time.fixedDeltaTime : Time.deltaTime;
 
-        // Set the camera axis values
         freeLookVCam.m_XAxis.m_InputAxisValue = cameraMovement.x * speedMultiplier * deviceMultiplier;
         freeLookVCam.m_YAxis.m_InputAxisValue = cameraMovement.y * speedMultiplier * deviceMultiplier;
+
+        player.AlignToCamera();
     }
+
+
 
     void OnEnableMouseControlCamera()
     {

@@ -21,7 +21,6 @@ public class SkillState : StateBase
         }
         else
         { 
-            Debug.Log("No enemy in range. Skill cast canceled.");
             player.StopSkillTimer(skill);
             //player.stateMachine.RevertToPreviousState();
         }

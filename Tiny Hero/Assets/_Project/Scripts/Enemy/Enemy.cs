@@ -53,10 +53,10 @@ public class Enemy : Entity
         At(chaseState, attackState, new FunctionPredicate(() => playerDetector.CanAttackPlayer()));
         At(attackState, chaseState, new FunctionPredicate(() => !playerDetector.CanAttackPlayer()));
 
-        Any(hitState, new FunctionPredicate(() => health.isTakeDamaged));
+        Any(hitState, new FunctionPredicate(() => health.IsTakeDamaged));
         
 
-        Any(dieState, new FunctionPredicate(() => health.isDeath || isExplosion));
+        Any(dieState, new FunctionPredicate(() => health.IsDead || isExplosion));
 
         stateMachine.SetState(wanderState);
     }

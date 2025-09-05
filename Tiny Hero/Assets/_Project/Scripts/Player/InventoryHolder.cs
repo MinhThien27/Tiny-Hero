@@ -22,7 +22,6 @@ public class InventoryHolder : MonoBehaviour
         if (inventoryData.CanAddItem(item))
         {
             inventoryData.Add(item);
-            Debug.Log("Picked up: " + item.name);
         }
         else
         {
@@ -65,7 +64,7 @@ public class InventoryHolder : MonoBehaviour
         {
             WeaponManager weaponManager = GetComponent<WeaponManager>();
             GameObject weaponToEquip = weaponManager.EquipWeapon(weapon);
-            player.PickupWeapon(weaponToEquip.GetComponentInChildren<WeaponCollider>());
+            player.EquipWeapon(weaponToEquip.GetComponentInChildren<WeaponCollider>());
         }
         else
         {

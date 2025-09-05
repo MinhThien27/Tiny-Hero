@@ -61,7 +61,7 @@ public class InputReader : ScriptableObject, IPlayerActions
 
     public void OnMouseControlCamera(InputAction.CallbackContext context)
     {
-        switch(context.phase)
+        switch (context.phase)
         {
             case InputActionPhase.Started:
                 EnableMouseControlCamera.Invoke();
@@ -74,7 +74,7 @@ public class InputReader : ScriptableObject, IPlayerActions
 
     public void OnJump(InputAction.CallbackContext context)
     {
-        switch(context.phase)
+        switch (context.phase)
         {
             case InputActionPhase.Started:
                 Jump.Invoke(true);

@@ -19,7 +19,6 @@ public class ItemSO : BaseItemSO
     public ItemType itemType;
     public GameObject effectPrefab;
     public int value = 10;
-    public int maxStack = 10;
     public bool ApplyEffect(PlayerController player)
     {
         switch (itemType)

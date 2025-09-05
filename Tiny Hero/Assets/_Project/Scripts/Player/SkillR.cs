@@ -58,7 +58,8 @@ public class SkillR : ISkill
         foreach (var hit in hits)
         {
             if (hit.CompareTag("Enemy"))
-                return true;
+                if(hit.GetComponent<Health>() != null && !hit.GetComponent<Health>().IsDead)
+                    return true;
         }
         return false;
     }

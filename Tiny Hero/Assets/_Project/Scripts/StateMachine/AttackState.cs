@@ -15,6 +15,8 @@ public class AttackState : StateBase
     public override void OnEnter()
     {
         if (currentWeapon == null) return;
+        if (currentWeapon.AnimationHash == 0) return;
+
         animator.CrossFade(currentWeapon.AnimationHash, 0f);
         //animator.CrossFade(AttackHash, 0f); //Set crossFadeDuaration = 0 to play fullfill attack animation
         //player.Attack();

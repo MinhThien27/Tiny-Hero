@@ -4,6 +4,7 @@ using UnityEngine;
 public class WeaponCollider : MonoBehaviour
 {
     public WeaponSO weaponData;
+    PlayerController playerController;
 
     [Header("For Ranged Weapons")]
     public GameObject arrowPrefab;
@@ -11,6 +12,7 @@ public class WeaponCollider : MonoBehaviour
     public float arrowForce = 20f;
 
     public bool isAlreadyHit = false;
+    public bool isEquipped = false;
 
     private void Start()
     {
@@ -30,9 +32,10 @@ public class WeaponCollider : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (isAlreadyHit) return;
+        Debug.Log("is weapon equipped: " + isEquipped);
+        if (isAlreadyHit || !isEquipped) return;
 
-        if (weaponData.weaponType == WeaponType.Bow || weaponData.weaponType == WeaponType.Staff)
+        if (weaponData.weaponType == WeaponType.Bow)
             return;
 
         if (other.CompareTag("Enemy"))
@@ -61,7 +64,7 @@ public class WeaponCollider : MonoBehaviour
             return;
         }
 
-        if (weaponData.weaponType != WeaponType.Bow && weaponData.weaponType != WeaponType.Staff)
+        if (weaponData.weaponType != WeaponType.Bow)
         {
             Debug.LogWarning("Fire() is only for ranged weapons!");
             return;

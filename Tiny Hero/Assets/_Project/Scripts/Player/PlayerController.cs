@@ -41,7 +41,10 @@ public class PlayerController : ValidatedMonoBehaviour
 
     [Header("AttackNormalSetting")]
     [SerializeField] float attackCooldown = 1f;
-    [SerializeField] WeaponCollider weaponCollider;
+    [SerializeField] WeaponCollider leftHandWeapon;
+    [SerializeField] WeaponCollider rightHandWeapon;
+    [SerializeField] WeaponCollider weaponMainAttack;
+
     AttackState attackState;
 
     [Header("Skills Settings")]
@@ -96,6 +99,7 @@ public class PlayerController : ValidatedMonoBehaviour
     CountdownTimer skillRCooldownTimer;
 
     [HideInInspector] public StateMachine stateMachine;
+    [SerializeField] public CameraManager cameraManager;
 
     //Animator parameters
     static readonly int Speed = Animator.StringToHash("Speed");
@@ -139,7 +143,7 @@ public class PlayerController : ValidatedMonoBehaviour
 
         rb.freezeRotation = true;
 
-        weaponCollider = GetComponentInChildren<WeaponCollider>();
+        //weaponCollider = GetComponentInChildren<WeaponCollider>();
 
         meshRenderer = GetComponentInChildren<MeshRenderer>();
         originalMaterial = meshRenderer != null ? meshRenderer.material : null;
@@ -160,8 +164,9 @@ public class PlayerController : ValidatedMonoBehaviour
         stateMachine = new StateMachine();
 
         //Declare states
-        attackState = new AttackState(this, animator, weaponCollider);
+        attackState = new AttackState(this, animator, weaponMainAttack);
         var locomotionState = new LocomotionState(this, animator);
+        var locomotionWeaponState = new locomotionWeaponState(this, animator);
         var jumpState = new JumpState(this, animator);
         var dashState = new DashState(this, animator, dashMaterial);
         var dieState = new DieState(this, animator);
@@ -174,12 +179,15 @@ public class PlayerController : ValidatedMonoBehaviour
         //-----Define transitions-----//
         //locomotionState -> jumpState
         At(locomotionState, jumpState, new FunctionPredicate(() => jumpTimer.IsRunning));
+        At(locomotionWeaponState, jumpState, new FunctionPredicate(() => jumpTimer.IsRunning));
 
         //locomotionState -> dashState
         At(locomotionState, dashState, new FunctionPredicate(() => dashTimer.IsRunning));
+        At(locomotionWeaponState, dashState, new FunctionPredicate(() => dashTimer.IsRunning));
 
         //locomotionState -> attackState
         At(locomotionState, attackState, new FunctionPredicate(() => attackCooldownTimer.IsRunning));
+        At(locomotionWeaponState, attackState, new FunctionPredicate(() => attackCooldownTimer.IsRunning));
 
 
         //Any state -> locomotionState if not jumping or dashing
@@ -187,16 +195,30 @@ public class PlayerController : ValidatedMonoBehaviour
                                                   && !jumpTimer.IsRunning
                                                   && groundChecker.IsGrounded
                                                   && !attackCooldownTimer.IsRunning
-                                                  && !health.isDeath
-                                                  && !health.isTakeDamaged
+                                                  && !health.IsDead
+                                                  && !health.IsTakeDamaged
                                                   && !isDefending
                                                   && !skillQTimer.IsRunning
                                                   && !skillETimer.IsRunning
-                                                  && !skillRTimer.IsRunning;
+                                                  && !skillRTimer.IsRunning
+                                                  && (!leftHandWeapon && !rightHandWeapon);
+
+        Func<bool> ReturnLocomotionWeaponState = () => !dashTimer.IsRunning
+                                                  && !jumpTimer.IsRunning
+                                                  && groundChecker.IsGrounded
+                                                  && !attackCooldownTimer.IsRunning
+                                                  && !health.IsDead
+                                                  && !health.IsTakeDamaged
+                                                  && !isDefending
+                                                  && !skillQTimer.IsRunning
+                                                  && !skillETimer.IsRunning
+                                                  && !skillRTimer.IsRunning
+                                                  && (leftHandWeapon || rightHandWeapon);
 
         Any(locomotionState, new FunctionPredicate(ReturnLocomotionState));
-        Any(hitState, new FunctionPredicate(() => health.isTakeDamaged && !skillQTimer.IsRunning && !skillETimer.IsRunning && !skillRTimer.IsRunning));
-        Any(dieState, new FunctionPredicate(() => health.isDeath));
+        Any(locomotionWeaponState, new FunctionPredicate(ReturnLocomotionWeaponState));
+        Any(hitState, new FunctionPredicate(() => health.IsTakeDamaged && !skillQTimer.IsRunning && !skillETimer.IsRunning && !skillRTimer.IsRunning));
+        Any(dieState, new FunctionPredicate(() => health.IsDead));
         Any(defendState, new FunctionPredicate(() => isDefending));
 
         Any(skillQState, new FunctionPredicate(() => skillQTimer.IsRunning));
@@ -280,6 +302,11 @@ public class PlayerController : ValidatedMonoBehaviour
         stateMachine.Update();
 
         UpdateAnimator();
+
+        if (cameraManager.isAimingWithBow )
+        {
+            AlignToCamera();
+        }
     }
     private void FixedUpdate()
     {
@@ -322,106 +349,116 @@ public class PlayerController : ValidatedMonoBehaviour
         }
     }
 
-    public void PickupWeapon(WeaponCollider wpCol)
+    public void EquipWeapon(WeaponCollider wpCol)
     {
-        weaponCollider = wpCol;
+        switch (wpCol.weaponData.weaponType)
+        {
+            case WeaponType.Shield:
+                leftHandWeapon = wpCol;
+                break;
 
-        attackState = new AttackState(this, animator, wpCol);
+            case WeaponType.Sword:
+                rightHandWeapon = wpCol;
+                weaponMainAttack = rightHandWeapon;
+                break;
+
+            case WeaponType.Bow:
+                leftHandWeapon = wpCol;
+                rightHandWeapon = null;
+                weaponMainAttack = leftHandWeapon;
+                break;
+
+            default:
+                Debug.LogWarning("Unknown weapon type equipped: " + wpCol.weaponData.weaponType);
+                break;
+        }
+
+        attackState = new AttackState(this, animator, weaponMainAttack);
 
         stateMachine.ReplaceTransition(typeof(AttackState), attackState);
     }
     private void OnAttack()
     {
-        if (!attackCooldownTimer.IsRunning && weaponCollider != null)
+        if (!attackCooldownTimer.IsRunning && weaponMainAttack != null)
         {
+            if(weaponMainAttack.weaponData.weaponType == WeaponType.Shield)
+            {
+                Debug.Log("Can't attack with shield!");
+                return;
+            }
             attackCooldownTimer.Start();
         }
     }
 
-
-    //Vector3 lastAttackPos;
     public void Attack()
     {
-        switch (weaponCollider.weaponData.weaponType)
+        switch (weaponMainAttack.weaponData.weaponType)
         {
             case WeaponType.Sword:
-                Debug.Log("is already hit:" + weaponCollider.isAlreadyHit);
-                weaponCollider.ResetHit();
+                Debug.Log("is already hit:" + weaponMainAttack.isAlreadyHit);
+                weaponMainAttack.ResetHit();
                 break;
             case WeaponType.Bow:
                 //TODO: When using bow, use freeVCam to zoom in and shot at the center of the screen
-                weaponCollider.ResetHit();
+                weaponMainAttack.ResetHit();
                 Debug.Log("is using bow");
-                weaponCollider.Fire();
+                weaponMainAttack.Fire();
                 break;
         }
-
-        //Vector3 attackPos = transform.position + transform.forward;
-
-        //lastAttackPos = attackPos;
-
-        //Collider[] hitEnemies = Physics.OverlapSphere(attackPos, attackDistance);
-
-        //foreach (var enemy in hitEnemies)
-        //{
-        //    if (enemy.CompareTag("Enemy"))
-        //    {
-        //        enemy.GetComponent<Health>()?.TakeDamage(attackDamage);
-        //    }
-        //}
     }
 
     public void StopSkillTimer(ISkill skill)
     {
-        if (skill == skillQ) skillQTimer.Stop();
-        else if (skill == skillE) skillETimer.Stop();
-        else if (skill == skillR) skillRTimer.Stop();
-    }
-    private void OnSkillQ()
-    {
-        Debug.Log("Pressed Q → should cast SkillQ");
-        if (!skillQTimer.IsRunning && !skillQCooldownTimer.IsRunning)
-        {
-            skillQTimer.Start();
-            //skillHUD.StartCoroutine(skillHUD.UpdateCooldownUI(skillHUD.skillQ));
+        if (skill == skillQ) 
+        { 
+            skillQTimer.Stop(); 
+            skillQCooldownTimer.Stop(); //Stop cooldown if skill is interrupted
         }
-        else if(!skillQTimer.IsRunning && skillQCooldownTimer.IsRunning)
+        else if (skill == skillE)
         {
-            Debug.Log($"{skillQ.Name} is cooldown!");
+            skillETimer.Stop();
+            skillECooldownTimer.Stop(); //Stop cooldown if skill is interrupted
         }
-    }
-
-    private void OnSkillE()
-    {
-        Debug.Log("Pressed E → should cast SkillE");
-        if (!skillETimer.IsRunning && !skillECooldownTimer.IsRunning)
+        else if (skill == skillR)
         {
-            skillETimer.Start();
-            //skillHUD.StartCoroutine(skillHUD.UpdateCooldownUI(skillHUD.skillE));
-        }
-        else if (!skillETimer.IsRunning && skillECooldownTimer.IsRunning)
-        {
-            Debug.Log($"{skillE.Name} is cooldown!");
+            skillRTimer.Stop();
+            skillRCooldownTimer.Stop(); //Stop cooldown if skill is interrupted
+            Debug.Log("There are no enemy in range, skill R interrupted!");
         }
     }
 
-    private void OnSkillR()
+    private void TryCastSkill(ISkill skill, CountdownTimer skillTimer, CountdownTimer cooldownTimer, string keyName)
     {
-        Debug.Log("Pressed R → should cast SkillR");
-        if (!skillRTimer.IsRunning && !skillRCooldownTimer.IsRunning)
+        if (isCastingSkill)
         {
-            skillRTimer.Start();
-            //skillHUD.StartCoroutine(skillHUD.UpdateCooldownUI(skillHUD.skillR));
+            Debug.Log($"Can't cast {keyName} while another skill is active!");
+            return;
         }
-        else if (!skillRTimer.IsRunning && skillRCooldownTimer.IsRunning)
+
+        if (!skillTimer.IsRunning && !cooldownTimer.IsRunning)
         {
-            Debug.Log($"{skillR.Name} is cooldown!");
+            skillTimer.Start();
+        }
+        else if (!skillTimer.IsRunning && cooldownTimer.IsRunning)
+        {
+            Debug.Log($"{skill.Name} is cooldown!");
         }
     }
+
+    private void OnSkillQ() => TryCastSkill(skillQ, skillQTimer, skillQCooldownTimer, "Skill Q");
+
+    private void OnSkillE() => TryCastSkill(skillE, skillETimer, skillECooldownTimer, "Skill E");
+
+    private void OnSkillR() => TryCastSkill(skillR, skillRTimer, skillRCooldownTimer, "Skill R");
 
     public void OnDefend(bool performed)
     {
-        isDefending = performed;
+        if(leftHandWeapon != null && leftHandWeapon.weaponData.weaponType == WeaponType.Shield)
+        {
+            isDefending = performed;
+            return;
+        }
+        isDefending = false;
     }
 
     private void HandleTimer()
@@ -481,12 +518,25 @@ public class PlayerController : ValidatedMonoBehaviour
         rb.velocity = new Vector3(velocity.x, rb.velocity.y, velocity.z);
     }
 
-
     public void HandleRotation(Vector3 adjustedDirection)
     {
         // Adjust rotation to match movement direction
         var targetRotation = Quaternion.LookRotation(adjustedDirection);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+    }
+
+    public void AlignToCamera()
+    {
+        Vector3 forward = mainCamera.forward;
+        forward.y = 0;
+        if (forward.sqrMagnitude > 0.01f)
+        {
+            transform.rotation = Quaternion.Lerp(
+                transform.rotation,
+                Quaternion.LookRotation(forward),
+                rotationSpeed * Time.deltaTime
+            );
+        }
     }
 
     void SmoothSpeed(float value)
@@ -496,7 +546,7 @@ public class PlayerController : ValidatedMonoBehaviour
 
     public void OnPlayerDeath()
     {
-        StartCoroutine(WaitForPlayerDeathAnimation(1f)); //Player animation dead of player and inactive player after that
+        StartCoroutine(WaitForPlayerDeathAnimation(1f));
     }
 
     public IEnumerator WaitForPlayerDeathAnimation(float value)

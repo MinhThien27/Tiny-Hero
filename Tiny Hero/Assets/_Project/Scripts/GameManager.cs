@@ -21,4 +21,10 @@ public class GameManager : MonoBehaviour
         Score += score;
         OnScoreChanged?.Invoke();
     }
+
+    public void SetScore(int score)
+    {
+        Score = score;
+        OnScoreChanged?.Invoke();
+    }
 }
