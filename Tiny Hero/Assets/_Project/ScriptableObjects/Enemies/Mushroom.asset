@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 264ba7964c28c5048b236faa0c6501c3, type: 3}
+  m_Name: Mushroom
+  m_EditorClassIdentifier: 
+  id: f1828ed7-1e98-42ea-99ea-9c72dcdbc951
+  prefab: {fileID: 8796676268829331563, guid: 23bd109b7a6cc2b4c8cdad144e80cbb3, type: 3}
+  enemyType: 1
+  bulletPrefab: {fileID: 808853693170441175, guid: f8c9b92794937d9489cc0b8abba0e4e2, type: 3}
+  deadEffect: {fileID: 3238958252524853384, guid: c567c34a9d04c1147b153f21012ed399, type: 3}
+  maxHP: 50
+  attackDamage: 2
+  attackRange: 5
+  attackCooldown: 1
+  wanderRadius: 10

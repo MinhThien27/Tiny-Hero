@@ -23,7 +23,7 @@ public class PlayerDetector : MonoBehaviour
     private void Awake()
     {
         Enemy = GetComponent<Enemy>();
-        attackRange = Enemy.attackRange; 
+        attackRange = Enemy.AttackRange; 
         Player = GameObject.FindGameObjectWithTag("Player").transform; 
         PlayerHealth = Player.GetComponent<Health>();
     }

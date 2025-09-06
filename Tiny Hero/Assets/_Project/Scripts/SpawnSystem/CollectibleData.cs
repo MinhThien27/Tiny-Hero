@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(fileName = "CollectibleData", menuName = "CollectibleData", order = 1)]
+[CreateAssetMenu(fileName = "CollectibleData", menuName = "Game/Item/CollectableSO")]
 public class CollectibleData : EntityData
 {
     public int score;

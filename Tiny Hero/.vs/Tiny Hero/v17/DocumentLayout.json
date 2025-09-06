@@ -3,16 +3,128 @@
   "WorkspaceRootPath": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|c:\\users\\minht\\desktop\\gamesmaker\\unity\\tiny hero\\tiny-hero\\tiny hero\\assets\\_project\\scripts\\ui\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|c:\\users\\minht\\desktop\\gamesmaker\\unity\\tiny hero\\tiny-hero\\tiny hero\\assets\\_project\\scripts\\saveload\\inventorysaveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\saveload\\inventorysaveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|c:\\users\\minht\\desktop\\gamesmaker\\unity\\tiny hero\\tiny-hero\\tiny hero\\assets\\_project\\scripts\\player\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|c:\\users\\minht\\desktop\\gamesmaker\\unity\\tiny hero\\tiny-hero\\tiny hero\\assets\\_project\\scripts\\saveload\\weaponsaveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\saveload\\weaponsaveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\saveload\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\saveload\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\saveload\\gamesavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\saveload\\gamesavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\saveload\\isaveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\saveload\\isaveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\skille.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\skille.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\skillfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\skillfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\ui\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\enemy\\enemyexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemy\\enemyexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\enemy\\playerdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemy\\playerdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\enemy\\statemachine\\enemyattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemy\\statemachine\\enemyattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\enemy\\enemyso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemy\\enemyso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\itemidpostprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\itemidpostprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\spawnsystem\\collectibledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\spawnsystem\\collectibledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\baseitemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\baseitemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\inventoryso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\inventoryso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\skillso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\skillso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\input\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\input\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\itemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\itemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\weaponso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\weaponso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\enemy\\statemachine\\enemywanderstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemy\\statemachine\\enemywanderstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\ui\\scoreui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\scoreui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\ui\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,60 +135,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\UIBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\maanetorn\\farm game ui - simple 2d ui\\script\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\maanetorn\\farm game ui - simple 2d ui\\script\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\ui\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\ui\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\slimui\\modern menu 1\\scripts\\managers\\uimenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\slimui\\modern menu 1\\scripts\\managers\\uimenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\slimui\\modern menu 1\\scripts\\managers\\uisettingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\slimui\\modern menu 1\\scripts\\managers\\uisettingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\saveload\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\saveload\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\inventoryholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\inventoryholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\saveload\\gamesavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\saveload\\gamesavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\input\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\input\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\skillr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,20 +159,12 @@
       "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\statemachine\\statebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\weaponcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\weaponcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\weaponpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\weaponpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\weaponso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\weaponso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\statemachine\\dashstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,18 +203,6 @@
       "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\itemidpostprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\itemidpostprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\baseitemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\baseitemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\itemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\itemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Scrollbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Scrollbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -179,16 +223,8 @@
       "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemy\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\skillso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\skillso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\enemy\\statemachine\\enemyattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemy\\statemachine\\enemyattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\enemy\\statemachine\\enemybasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -197,14 +233,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\enemy\\statemachine\\enemydiestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemy\\statemachine\\enemydiestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\enemy\\playerdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemy\\playerdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\skille.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\skille.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\skillq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -225,18 +253,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\iskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\iskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\player\\skillfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\player\\skillfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\slashdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\slashdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\enemy\\statemachine\\enemywanderstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\enemy\\statemachine\\enemywanderstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13D0665E-78BC-EE32-E55A-C4CEF78CE1EE}|Assembly-CSharp.csproj|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\assets\\_project\\scripts\\statemachine\\hitstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -273,6 +289,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SkillHUD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Project\\Scripts\\SkillHUD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\maanetorn\\Farm Game UI - Simple 2D UI\\Script\\CustomButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\maanetorn\\Farm Game UI - Simple 2D UI\\Script\\CustomButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\SlimUI\\Modern Menu 1\\Scripts\\Managers\\UIMenuManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SlimUI\\Modern Menu 1\\Scripts\\Managers\\UIMenuManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -282,24 +306,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "WeaponManager.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\WeaponManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\WeaponManager.cs",
               "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\WeaponManager.cs",
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\WeaponManager.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAEwEMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwEMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T07:39:46.937Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAewDMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T11:54:17.522Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaveManager.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SaveLoad\\SaveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SaveLoad\\SaveManager.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SaveLoad\\SaveManager.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\SaveLoad\\SaveManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T11:52:01.96Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameSaveData.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SaveLoad\\GameSaveData.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SaveLoad\\GameSaveData.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SaveLoad\\GameSaveData.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\SaveLoad\\GameSaveData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T14:45:30.048Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InventorySaveable.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SaveLoad\\InventorySaveable.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SaveLoad\\InventorySaveable.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SaveLoad\\InventorySaveable.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\SaveLoad\\InventorySaveable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T12:00:12.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeaponSaveable.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SaveLoad\\WeaponSaveable.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SaveLoad\\WeaponSaveable.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SaveLoad\\WeaponSaveable.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\SaveLoad\\WeaponSaveable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T11:59:56.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "CameraManager.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\CameraManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\CameraManager.cs",
@@ -307,51 +396,287 @@
               "RelativeToolTip": "Assets\\_Project\\Scripts\\CameraManager.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAUwFEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T09:57:34.167Z",
-              "IsPinned": true
+              "WhenOpened": "2025-09-01T09:57:34.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "InputReader.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Input\\InputReader.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Input\\InputReader.cs",
               "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Input\\InputReader.cs",
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Input\\InputReader.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAUwIgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwAkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T06:29:17.329Z",
-              "IsPinned": true
+              "WhenOpened": "2025-08-17T06:29:17.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAIAxwMEAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T11:54:17.522Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 5,
               "Title": "Health.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Health.cs",
               "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Health.cs",
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Health.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwDwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T09:38:25.977Z",
-              "IsPinned": true
+              "WhenOpened": "2025-09-01T09:38:25.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "ISaveable.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SaveLoad\\ISaveable.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SaveLoad\\ISaveable.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SaveLoad\\ISaveable.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\SaveLoad\\ISaveable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T11:58:24.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SkillFactory.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\SkillFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\SkillFactory.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\SkillFactory.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\SkillFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T06:41:27.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SkillE.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\SkillE.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\SkillE.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\SkillE.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\SkillE.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA5wCEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T07:57:35.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:26:12.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\UI\\Setting.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\Setting.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\UI\\Setting.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\Setting.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T14:04:21.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EnemyExplosion.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\EnemyExplosion.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemy\\EnemyExplosion.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\EnemyExplosion.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemy\\EnemyExplosion.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T11:11:41.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemy\\Enemy.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemy\\Enemy.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAIAxwEwAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T06:38:50.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EnemyAttackState.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyAttackState.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyAttackState.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyAttackState.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyAttackState.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAApwCUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T07:09:59.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EnemySO.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\EnemySO.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemy\\EnemySO.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\EnemySO.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemy\\EnemySO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T10:30:38.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CollectibleData.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SpawnSystem\\CollectibleData.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SpawnSystem\\CollectibleData.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SpawnSystem\\CollectibleData.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\SpawnSystem\\CollectibleData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T10:38:16.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InventorySO.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\InventorySO.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\InventorySO.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\InventorySO.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\InventorySO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T10:34:19.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlayerDetector.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\PlayerDetector.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemy\\PlayerDetector.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\PlayerDetector.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemy\\PlayerDetector.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAxwBoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T07:23:07.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ItemIDPostprocessor.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\ItemIDPostprocessor.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\ItemIDPostprocessor.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\ItemIDPostprocessor.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\ItemIDPostprocessor.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwBoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T07:57:14.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseItemSO.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\BaseItemSO.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\BaseItemSO.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\BaseItemSO.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\BaseItemSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T07:44:02.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SkillSO.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\SkillSO.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\SkillSO.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\SkillSO.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\SkillSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T11:35:58.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ItemSO.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\ItemSO.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\ItemSO.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\ItemSO.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\ItemSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:02:14.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ItemDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\ItemDatabase.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\ItemDatabase.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\ItemDatabase.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\ItemDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T10:08:36.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "WeaponSO.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\WeaponSO.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\WeaponSO.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\WeaponSO.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\WeaponSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T06:33:44.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EnemyWanderState.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyWanderState.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyWanderState.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyWanderState.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyWanderState.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T07:44:05.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ScoreUI.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\UI\\ScoreUI.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\ScoreUI.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\UI\\ScoreUI.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\ScoreUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T07:38:44.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "InventoryUI.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\InventoryUI.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\InventoryUI.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\InventoryUI.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\InventoryUI.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAewFAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T08:08:59.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "CustomButton.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\UI\\CustomButton.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\CustomButton.cs",
@@ -359,25 +684,23 @@
               "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\CustomButton.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T14:25:56.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T14:25:56.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Image.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs",
-              "ViewState": "AgIAABkBAAAAAAAAAAAewCYBAAAmAAAAAAAAAA==",
+              "DocumentIndex": 72,
+              "Title": "CustomButton.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\maanetorn\\Farm Game UI - Simple 2D UI\\Script\\CustomButton.cs",
+              "RelativeDocumentMoniker": "Assets\\maanetorn\\Farm Game UI - Simple 2D UI\\Script\\CustomButton.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\maanetorn\\Farm Game UI - Simple 2D UI\\Script\\CustomButton.cs",
+              "RelativeToolTip": "Assets\\maanetorn\\Farm Game UI - Simple 2D UI\\Script\\CustomButton.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAA5wEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T14:21:01.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T09:33:55.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 32,
               "Title": "UIBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\UIBehaviour.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\UIBehaviour.cs",
@@ -390,43 +713,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Setting.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\UI\\Setting.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\UI\\Setting.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\UI\\Setting.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\UI\\Setting.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAywBgAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 31,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs",
+              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Image.cs",
+              "ViewState": "AgIAABkBAAAAAAAAAAAewCYBAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T14:04:21.892Z"
+              "WhenOpened": "2025-09-05T14:21:01.269Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CustomButton.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\maanetorn\\Farm Game UI - Simple 2D UI\\Script\\CustomButton.cs",
-              "RelativeDocumentMoniker": "Assets\\maanetorn\\Farm Game UI - Simple 2D UI\\Script\\CustomButton.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\maanetorn\\Farm Game UI - Simple 2D UI\\Script\\CustomButton.cs",
-              "RelativeToolTip": "Assets\\maanetorn\\Farm Game UI - Simple 2D UI\\Script\\CustomButton.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAA5wEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T09:33:55.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InventoryUI.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\InventoryUI.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\InventoryUI.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\InventoryUI.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\InventoryUI.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAewFAAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T08:08:59.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 30,
               "Title": "InventorySlot.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\InventorySlot.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\InventorySlot.cs",
@@ -434,24 +734,11 @@
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\InventorySlot.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAA0wAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T08:05:33.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T08:05:33.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SaveManager.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SaveLoad\\SaveManager.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SaveLoad\\SaveManager.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SaveLoad\\SaveManager.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\SaveLoad\\SaveManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T14:47:16.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 73,
               "Title": "UIMenuManager.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\SlimUI\\Modern Menu 1\\Scripts\\Managers\\UIMenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\SlimUI\\Modern Menu 1\\Scripts\\Managers\\UIMenuManager.cs",
@@ -463,31 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UISettingsManager.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\SlimUI\\Modern Menu 1\\Scripts\\Managers\\UISettingsManager.cs",
-              "RelativeDocumentMoniker": "Assets\\SlimUI\\Modern Menu 1\\Scripts\\Managers\\UISettingsManager.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\SlimUI\\Modern Menu 1\\Scripts\\Managers\\UISettingsManager.cs",
-              "RelativeToolTip": "Assets\\SlimUI\\Modern Menu 1\\Scripts\\Managers\\UISettingsManager.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAewDQAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T09:34:28.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T13:26:12.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 33,
               "Title": "InventoryHolder.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\InventoryHolder.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\InventoryHolder.cs",
@@ -499,31 +762,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GameSaveData.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SaveLoad\\GameSaveData.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SaveLoad\\GameSaveData.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SaveLoad\\GameSaveData.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\SaveLoad\\GameSaveData.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T14:45:30.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemy\\Enemy.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\Enemy.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemy\\Enemy.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T06:38:50.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 35,
               "Title": "SkillR.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\SkillR.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\SkillR.cs",
@@ -535,7 +774,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 38,
               "Title": "StateBase.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\StateMachine\\StateBase.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\StateMachine\\StateBase.cs",
@@ -547,7 +786,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 36,
               "Title": "CurrentWeaponUI.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\CurrentWeaponUI.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\CurrentWeaponUI.cs",
@@ -559,7 +798,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 37,
               "Title": "LocomotionState.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\StateMachine\\LocomotionState.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\StateMachine\\LocomotionState.cs",
@@ -571,19 +810,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ItemSO.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\ItemSO.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\ItemSO.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\ItemSO.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\ItemSO.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T06:02:14.689Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 42,
               "Title": "AttackState.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\StateMachine\\AttackState.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\StateMachine\\AttackState.cs",
@@ -595,7 +822,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 43,
               "Title": "DefendState.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\StateMachine\\DefendState.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\StateMachine\\DefendState.cs",
@@ -607,7 +834,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 39,
               "Title": "WeaponCollider.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\WeaponCollider.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\WeaponCollider.cs",
@@ -619,7 +846,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 40,
               "Title": "WeaponPickup.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\WeaponPickup.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\WeaponPickup.cs",
@@ -631,19 +858,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "WeaponSO.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\WeaponSO.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\WeaponSO.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\WeaponSO.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\WeaponSO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T06:33:44.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 41,
               "Title": "DashState.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\StateMachine\\DashState.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\StateMachine\\DashState.cs",
@@ -655,7 +870,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 44,
               "Title": "SceneRefAttributeValidator.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Library\\PackageCache\\com.kylewbanks.scenerefattribute@8d3a0ee421\\SceneRefAttributeValidator.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.kylewbanks.scenerefattribute@8d3a0ee421\\SceneRefAttributeValidator.cs",
@@ -668,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 45,
               "Title": "Tiny Hero.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Settings\\Tiny Hero.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Settings\\Tiny Hero.cs",
@@ -680,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 46,
               "Title": "Timer.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Timer.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Timer.cs",
@@ -692,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 49,
               "Title": "ItemPickup.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\ItemPickup.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\ItemPickup.cs",
@@ -704,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 47,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\PlayerHealth.cs",
@@ -716,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 48,
               "Title": "ArrowDamage.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\ArrowDamage.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\ArrowDamage.cs",
@@ -728,43 +943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ItemIDPostprocessor.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\ItemIDPostprocessor.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\ItemIDPostprocessor.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\ItemIDPostprocessor.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\ItemIDPostprocessor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T07:57:14.567Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "BaseItemSO.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\BaseItemSO.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\BaseItemSO.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\BaseItemSO.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\BaseItemSO.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAUwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T07:44:02.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ItemDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\ItemDatabase.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\ItemDatabase.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\ItemDatabase.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\ItemDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T10:08:36.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 50,
               "Title": "Scrollbar.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Scrollbar.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Scrollbar.cs",
@@ -777,7 +956,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 51,
               "Title": "JumpState.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\StateMachine\\JumpState.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\StateMachine\\JumpState.cs",
@@ -789,7 +968,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 52,
               "Title": "StateMachine.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\StateMachine\\StateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\StateMachine\\StateMachine.cs",
@@ -801,7 +980,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 53,
               "Title": "SkillState.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\StateMachine\\SkillState.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\StateMachine\\SkillState.cs",
@@ -813,7 +992,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 54,
               "Title": "EnemyBullet.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\EnemyBullet.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemy\\EnemyBullet.cs",
@@ -825,19 +1004,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "SkillSO.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\SkillSO.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\SkillSO.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\SkillSO.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\SkillSO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T11:35:58.569Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 55,
               "Title": "Collectible.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Collectible.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Collectible.cs",
@@ -849,31 +1016,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "PlayerDetector.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\PlayerDetector.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemy\\PlayerDetector.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\PlayerDetector.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemy\\PlayerDetector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T07:23:07.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "EnemyAttackState.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyAttackState.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyAttackState.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyAttackState.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyAttackState.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T07:09:59.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 71,
               "Title": "SkillHUD.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SkillHUD.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SkillHUD.cs",
@@ -885,7 +1028,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 58,
               "Title": "SkillQ.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\SkillQ.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\SkillQ.cs",
@@ -897,7 +1040,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 57,
               "Title": "EnemyDieState.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyDieState.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyDieState.cs",
@@ -909,7 +1052,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 56,
               "Title": "EnemyBaseState.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyBaseState.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyBaseState.cs",
@@ -921,19 +1064,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "SkillE.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\SkillE.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\SkillE.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\SkillE.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\SkillE.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA0wBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T07:57:35.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 60,
               "Title": "ExplosionDamage.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\ExplosionDamage.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\ExplosionDamage.cs",
@@ -945,7 +1076,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 59,
               "Title": "Posion Damage.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\Posion Damage.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemy\\Posion Damage.cs",
@@ -957,7 +1088,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 69,
               "Title": "HealthHUD.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\HealthHUD.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\HealthHUD.cs",
@@ -969,7 +1100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 68,
               "Title": "ManaHUD.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\ManaHUD.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\ManaHUD.cs",
@@ -981,7 +1112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 61,
               "Title": "GroundChecker.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\GroundChecker.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\GroundChecker.cs",
@@ -993,7 +1124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 62,
               "Title": "ISkill.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\ISkill.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\ISkill.cs",
@@ -1005,19 +1136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "SkillFactory.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\SkillFactory.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\SkillFactory.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\SkillFactory.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Player\\SkillFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T06:41:27.285Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 70,
               "Title": "ScoreUI.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\ScoreUI.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\ScoreUI.cs",
@@ -1029,31 +1148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "SlashDamage.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SlashDamage.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SlashDamage.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SlashDamage.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\SlashDamage.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAD4vxwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T10:29:53.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "EnemyWanderState.cs",
-              "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyWanderState.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyWanderState.cs",
-              "ToolTip": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyWanderState.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyWanderState.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAowBMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T07:44:05.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 63,
               "Title": "HitState.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\StateMachine\\HitState.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\StateMachine\\HitState.cs",
@@ -1065,7 +1160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 64,
               "Title": "DashAfterImage.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Player\\DashAfterImage.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Player\\DashAfterImage.cs",
@@ -1077,7 +1172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 66,
               "Title": "SpawnEffects.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\SpawnSystem\\SpawnEffects.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SpawnSystem\\SpawnEffects.cs",
@@ -1089,7 +1184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 65,
               "Title": "DieState.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\StateMachine\\DieState.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\StateMachine\\DieState.cs",
@@ -1101,7 +1196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 67,
               "Title": "EnemyHitState.cs",
               "DocumentMoniker": "C:\\Users\\minht\\Desktop\\GamesMaker\\Unity\\Tiny Hero\\Tiny-Hero\\Tiny Hero\\Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyHitState.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Enemy\\StateMachine\\EnemyHitState.cs",

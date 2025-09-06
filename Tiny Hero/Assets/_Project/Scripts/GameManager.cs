@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
 
     }
-
+    #region ScoreManager
     public void AddScore(int score)
     {
         Score += score;
@@ -27,4 +27,5 @@ public class GameManager : MonoBehaviour
         Score = score;
         OnScoreChanged?.Invoke();
     }
+    #endregion
 }

@@ -6,6 +6,7 @@ public enum EnemyType
     Melee,
     Ranged
 }
+[RequireComponent(typeof(Health))]
 [RequireComponent(typeof(NavMeshAgent))]
 [RequireComponent(typeof(PlayerDetector))]
 public class Enemy : Entity 
@@ -15,26 +16,43 @@ public class Enemy : Entity
     [SerializeField, Self] PlayerDetector playerDetector;
     [SerializeField, Self] Health health;
 
-    [Header("Attack Settings")]
-    [SerializeField] EnemyType enemyType = EnemyType.Melee;
-    [SerializeField] GameObject bulletPrefab;
-    [SerializeField] float wanderRadius = 10f;
-    public float attackRange = 1f;
-    [SerializeField] float attackCooldown = 1f;
-    [SerializeField] int attackDamage = 1;
+    [Header("Data Settings")]
+    [SerializeField] EnemySO enemyData;
 
-    [Header("Dead Settings")]
-    [SerializeField] GameObject deadEffect;
+    EnemyType enemyType;
+    GameObject bulletPrefab;
+    float wanderRadius = 10f;
+    float attackRange = 1f;
+    float attackCooldown = 1f;
+    int attackDamage = 1;
+    GameObject deadEffect;
 
     [HideInInspector] public StateMachine stateMachine;
 
     public CountdownTimer attackTimer;
 
-    public bool isExplosion = false;
+    public bool IsExplosion = false;
+
+    public float AttackRange => attackRange;
 
     //public bool IsAlreadyAttacking { get; private set; }
 
     private void OnValidate() => this.ValidateRefs();
+
+    private void Awake()
+    {
+        attackRange = enemyData.attackRange;
+        attackDamage = enemyData.attackDamage;
+        attackCooldown = enemyData.attackCooldown;
+        wanderRadius = enemyData.wanderRadius;
+
+        bulletPrefab = enemyData.bulletPrefab;
+        deadEffect = enemyData.deadEffect;
+
+        if (!health)
+            health = GetComponent<Health>();
+        health.SetMaxHealth(enemyData.maxHP);
+    }
 
     private void Start()
     {
@@ -56,7 +74,7 @@ public class Enemy : Entity
         Any(hitState, new FunctionPredicate(() => health.IsTakeDamaged));
         
 
-        Any(dieState, new FunctionPredicate(() => health.IsDead || isExplosion));
+        Any(dieState, new FunctionPredicate(() => health.IsDead || IsExplosion));
 
         stateMachine.SetState(wanderState);
     }

@@ -126,6 +126,9 @@ public class WeaponManager : MonoBehaviour
             rb.useGravity = false;
         }
 
+        MeshCollider meshCollider = weapon.GetComponent<MeshCollider>();
+        if(meshCollider != null) meshCollider.enabled = false;
+
         foreach (Collider col in weapon.GetComponentsInChildren<Collider>())
         {
             if (col is BoxCollider) col.enabled = false;
@@ -203,18 +206,59 @@ public class WeaponManager : MonoBehaviour
             {
                 inventory.AddItem(weaponData);
                 Debug.Log("Returned weapon to inventory: " + weaponData.name);
+
+                Destroy(weapon);
             }
             else
             {
-                Debug.LogWarning("Can't return weapon to inventory");
+                Debug.LogWarning("Inventory full -> dropping weapon: " + weaponData.name);
+                DropWeaponToGround(weapon);
             }
         }
         else
         {
-            Debug.LogWarning("WeaponColllider or WeaponSO is null.");
+            Debug.LogWarning("WeaponCollider or WeaponSO is null.");
+            Destroy(weapon);
+        }
+    }
+
+    private void ResetPhysics(GameObject weapon)
+    {
+        Rigidbody rb = weapon.GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.isKinematic = false;
+            rb.useGravity = true;
+            rb.velocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
         }
 
-        Destroy(weapon);
+        MeshCollider meshCollider = weapon.GetComponent<MeshCollider>();
+        if (meshCollider != null) meshCollider.enabled = true;
+
+        foreach (Collider col in weapon.GetComponentsInChildren<Collider>())
+        {
+            col.enabled = true;
+            col.isTrigger = false;
+        }
+    }
+
+    private void DropWeaponToGround(GameObject weapon)
+    {
+        weapon.transform.SetParent(null);
+
+        ResetPhysics(weapon);
+
+        Vector3 dropPos = transform.position + transform.forward * 1f + Vector3.up * 0.5f;
+        weapon.transform.position = dropPos;
+
+        Rigidbody rb = weapon.GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.AddForce(transform.forward * 2f + Vector3.up * 2f, ForceMode.Impulse);
+        }
+
+        Debug.Log("Dropped weapon to ground: " + weapon.name);
     }
     #endregion
 }

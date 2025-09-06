@@ -35,7 +35,7 @@ public class EnemyAttackState : EnemyBaseState
             case EnemyType.Ranged:
                 float distanceToPlayer = Vector3.Distance(enemy.transform.position, player.position);
 
-                if (distanceToPlayer > enemy.attackRange)
+                if (distanceToPlayer > enemy.AttackRange)
                 {
                     agent.SetDestination(player.position);
                 }

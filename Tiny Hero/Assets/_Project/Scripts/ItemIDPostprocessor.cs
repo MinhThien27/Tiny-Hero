@@ -18,7 +18,6 @@ public class ItemIDPostprocessor : AssetPostprocessor
             {
                 ScriptableObject asset = AssetDatabase.LoadAssetAtPath<ScriptableObject>(assetPath);
 
-                // Check if the asset is of type BaseItemSO
                 if (asset is BaseItemSO item)
                 {
                     if (string.IsNullOrEmpty(item.id))
@@ -26,6 +25,16 @@ public class ItemIDPostprocessor : AssetPostprocessor
                         item.id = Guid.NewGuid().ToString();
                         EditorUtility.SetDirty(item); // Mark the asset as dirty to ensure the change is saved
                         Debug.Log($"Auto-generated ID for: {item.name}");
+                    }
+                }
+
+                if (asset is EnemySO enemy)
+                {
+                    if (string.IsNullOrEmpty(enemy.id))
+                    {
+                        enemy.id = Guid.NewGuid().ToString();
+                        EditorUtility.SetDirty(enemy);
+                        Debug.Log($"Auto-generated ID for: {enemy.name}");
                     }
                 }
             }

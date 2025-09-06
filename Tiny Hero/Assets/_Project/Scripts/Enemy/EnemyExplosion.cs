@@ -19,11 +19,11 @@ public class Explosion : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (enemy.isExplosion) return;
+        if (enemy.IsExplosion) return;
 
         if (other.CompareTag("Player"))
         {
-            enemy.isExplosion = true;
+            enemy.IsExplosion = true;
 
             other.GetComponent<PlayerHealth>().TakeDamage(damage);
             Debug.Log("Player hit by explosion for " + damage + " damage.");

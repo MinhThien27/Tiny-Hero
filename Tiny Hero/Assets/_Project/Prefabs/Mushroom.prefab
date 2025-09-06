@@ -811,14 +811,8 @@ MonoBehaviour:
   animator: {fileID: 8919974121777538862}
   playerDetector: {fileID: 7850704047655783028}
   health: {fileID: 2030300202228336541}
-  enemyType: 1
-  bulletPrefab: {fileID: 808853693170441175, guid: f8c9b92794937d9489cc0b8abba0e4e2, type: 3}
-  wanderRadius: 10
-  attackRange: 5
-  attackCooldown: 0.5
-  attackDamage: 1
-  deadEffect: {fileID: 3238958252524853384, guid: c567c34a9d04c1147b153f21012ed399, type: 3}
-  isExplosion: 0
+  enemyData: {fileID: 11400000, guid: 057564ac8c22a4b4b840277d835ba188, type: 2}
+  IsExplosion: 0
 --- !u!114 &2030300202228336541
 MonoBehaviour:
   m_ObjectHideFlags: 0

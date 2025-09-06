@@ -7,7 +7,7 @@ using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using static TinyHero;
 
-[CreateAssetMenu(fileName = "InputReader", menuName = "Input/InputReader", order = 0)]
+[CreateAssetMenu(fileName = "InputReader", menuName = "Game/Input/InputReader")]
 public class InputReader : ScriptableObject, IPlayerActions
 {
     public event UnityAction<Vector2> Move = delegate { };

@@ -2,35 +2,56 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
+[Serializable]
 public class GameSaveData
 {
     public string sceneName;
-    public string leftHandWeaponID;
-    public string rightHandWeaponID;
-    public int playerHP;
-    public int playerGold;
-    public List<InventoryItemSaveData> inventory = new();
+    public PlayerSaveData player;
+    public InventorySaveData inventory;
+    public WeaponSaveData weapons;
     public List<EnemySaveData> enemies = new();
 }
 
-[System.Serializable]
-public class EnemySaveData
+[Serializable]
+public class PlayerSaveData
 {
-    public string enemyID;       
-    public Vector3 position;    
+    public Vector3 position;
     public int hp;
+    public int gold;
 }
 
-[System.Serializable]
-public class InventoryItemSaveData
-{
-    public string itemID;
-    public int quantity;
-}
-
-[System.Serializable]
+[Serializable]
 public class InventorySaveData
 {
     public List<InventoryItemSaveData> items = new();
+}
+
+[Serializable]
+public class InventoryItemSaveData
+{
+    public string itemID;
+    public string itemName;
+    public int quantity;
+}
+
+[Serializable]
+public class WeaponSaveData
+{
+    public WeaponItemSaveData leftHandWeapon;
+    public WeaponItemSaveData rightHandWeapon;
+}
+
+[Serializable]
+public class WeaponItemSaveData
+{
+    public string weaponID;
+    public string weaponName;
+}
+
+[Serializable]
+public class EnemySaveData
+{
+    public string enemyID;
+    public Vector3 position;
+    public int hp;
 }

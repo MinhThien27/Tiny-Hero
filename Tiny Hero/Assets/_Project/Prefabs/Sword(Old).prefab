@@ -72,6 +72,8 @@ MonoBehaviour:
   arrowPrefab: {fileID: 0}
   firePosition: {fileID: 0}
   arrowForce: 20
+  isAlreadyHit: 0
+  isEquipped: 0
 --- !u!1 &8481558003154062512
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,6 +152,7 @@ GameObject:
   - component: {fileID: 7617002507525786264}
   - component: {fileID: 7840901973785204767}
   - component: {fileID: 2553467667273540335}
+  - component: {fileID: 799790372749317923}
   - component: {fileID: 7647647189382052706}
   m_Layer: 9
   m_Name: Sword(Old)
@@ -225,6 +228,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &799790372749317923
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8769610310739167497}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2490357807671972370, guid: d00dec123be83b445adbe6c8f3f02f41, type: 3}
 --- !u!54 &7647647189382052706
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -247,7 +272,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0

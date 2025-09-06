@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Weapon Data", menuName = "Weapon/WeaponSO", order = 0)]
+[CreateAssetMenu(fileName = "New Weapon Data", menuName = "Game/Item/WeaponSO", order = 0)]
 public class WeaponSO : BaseItemSO
 {
     public WeaponType weaponType;

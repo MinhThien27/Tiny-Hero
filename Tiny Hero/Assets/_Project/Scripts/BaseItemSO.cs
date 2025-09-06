@@ -5,7 +5,6 @@ using UnityEngine;
 using System;
 using System.IO;
 
-[CreateAssetMenu(fileName = "NewItem", menuName = "Inventory/Item")]
 public class BaseItemSO : ScriptableObject
 {
     public string id;

@@ -13,7 +13,7 @@ public class InventoryItem
     }
 }
 
-[CreateAssetMenu(fileName = "New Item Data", menuName = "Item/ItemSO", order = 0)]
+[CreateAssetMenu(fileName = "New Item Data", menuName = "Game/Item/ItemSO", order = 0)]
 public class ItemSO : BaseItemSO
 {
     public ItemType itemType;

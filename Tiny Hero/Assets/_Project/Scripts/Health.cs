@@ -71,6 +71,15 @@ public class Health : MonoBehaviour, IDamageable
         }
     }
 
+    public void SetMaxHealth(int value, bool resetToFull = true)
+    {
+        maxHealth = Mathf.Max(1, value);
+        if (resetToFull)
+            CurrentHealth = maxHealth;
+
+        PublishHealthPercent();
+    }
+
     private void PublishHealthPercent()
     {
         OnHealthChanged?.Invoke(CurrentHealth, maxHealth);

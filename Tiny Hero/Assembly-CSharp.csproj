@@ -70,6 +70,7 @@
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
     <Compile Include="Assets\_Project\Scripts\Enemy\EnemyBullet.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\CinemachineFadeOutNearbyObjects.cs" />
+    <Compile Include="Assets\_Project\Scripts\SaveLoad\ISaveable.cs" />
     <Compile Include="Assets\_Project\Scripts\Enemy\PlayerDetector.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement2D.cs" />
     <Compile Include="Assets\_Project\Scripts\Enemy\StateMachine\EnemyWanderState.cs" />
@@ -82,13 +83,12 @@
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\BossCamera\CustomLockCameraY.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\MixingCameraBlend.cs" />
     <Compile Include="Assets\_Project\Scripts\SpawnSystem\LinearSpawnPointStrategy.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Misc\ExtraLinks.cs" />
     <Compile Include="Assets\XEntity GameKit\Demo\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\_Project\Scripts\CameraManager.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerMovement.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Audio\CheckSFXVolume.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUI.cs" />
+    <Compile Include="Assets\_Project\Scripts\SaveLoad\WeaponSaveable.cs" />
     <Compile Include="Assets\_Project\Scripts\Enemy\EnemyExplosion.cs" />
+    <Compile Include="Assets\_Project\Scripts\SaveLoad\PlayerSaveable.cs" />
     <Compile Include="Assets\_Project\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\_Project\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\_Project\Scripts\SpawnSystem\EntitySpawner.cs" />
@@ -100,6 +100,7 @@
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\DualTarget\MoveAimTarget.cs" />
     <Compile Include="Assets\_Project\Scripts\Player\CurrentWeaponUI.cs" />
     <Compile Include="Assets\_Project\Scripts\UI\ManaHUD.cs" />
+    <Compile Include="Assets\_Project\Scripts\Enemy\EnemySO.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\ActivateCamOnPlay.cs" />
     <Compile Include="Assets\_Project\Scripts\UI\ScoreUI.cs" />
     <Compile Include="Assets\_Project\Scripts\BaseItemSO.cs" />
@@ -142,14 +143,12 @@
     <Compile Include="Assets\_Project\Scripts\Player\InventoryUI.cs" />
     <Compile Include="Assets\_Project\Scripts\ItemSO.cs" />
     <Compile Include="Assets\_Project\Scripts\StateMachine\Transition.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Managers\UIMenuManager.cs" />
     <Compile Include="Assets\_Project\Scripts\Player\InventoryHolder.cs" />
     <Compile Include="Assets\Brawler Animations Sample\DisplayAnimation.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Misc\ResetDemo.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\InputSystemHelper.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIElement.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\BossCamera\BossLookAt.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
+    <Compile Include="Assets\_Project\Scripts\SaveLoad\InventorySaveable.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetTargetController.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\DualTarget\PointAtAimTarget.cs" />
     <Compile Include="Assets\_Project\Scripts\Player\SkillQ.cs" />
@@ -158,7 +157,6 @@
     <Compile Include="Assets\_Project\Scripts\Player\SkillR.cs" />
     <Compile Include="Assets\_Project\Scripts\Enemy\StateMachine\EnemyHitState.cs" />
     <Compile Include="Assets\_Project\Scripts\StateMachine\IState.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Managers\UISettingsManager.cs" />
     <Compile Include="Assets\_Project\Scripts\Player\ISkill.cs" />
     <Compile Include="Assets\_Project\Scripts\Player\ArrowDamage.cs" />
     <Compile Include="Assets\_Project\Scripts\ExplosionDamage.cs" />
@@ -174,14 +172,12 @@
     <Compile Include="Assets\_Project\Scripts\SpawnSystem\IEntityFactory.cs" />
     <Compile Include="Assets\_Project\Scripts\Player\SkillFactory.cs" />
     <Compile Include="Assets\_Project\Scripts\Enemy\StateMachine\EnemyDieState.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIData.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\ThirdPersonFollowDistanceModifier.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
     <Compile Include="Assets\_Project\Scripts\Player\ItemDatabase.cs" />
     <Compile Include="Assets\MyTools\Setup.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovementNoCamera.cs" />
     <Compile Include="Assets\_Project\Scripts\Enemy\ConeDetectionStrategy.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Audio\CheckMusicVolume.cs" />
     <Compile Include="Assets\_Project\Scripts\UI\Setting.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.10.4\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
     <Compile Include="Assets\_Project\Scripts\Player\InventorySO.cs" />
@@ -214,6 +210,7 @@
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Custom Inspector\License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
@@ -1303,6 +1300,10 @@
     <ProjectReference Include="sc.utilities.selectionhistory.editor.csproj">
       <Project>{ADBC0459-536C-D9FF-B501-B6C0E73B5173}</Project>
       <Name>sc.utilities.selectionhistory.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="CustomInspector.csproj">
+      <Project>{DCE324C4-7220-CDB2-88C4-1E49A5DD1C4A}</Project>
+      <Name>CustomInspector</Name>
     </ProjectReference>
     <ProjectReference Include="XEntity.InventoryItemSystem.csproj">
       <Project>{856E89F0-BB2C-69F7-DD34-6DD8FD68F34C}</Project>

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 264ba7964c28c5048b236faa0c6501c3, type: 3}
+  m_Name: Cactus
+  m_EditorClassIdentifier: 
+  id: 48ffe07e-533c-47e3-9fc7-5c2eb69472ec
+  prefab: {fileID: 5662542887013771021, guid: 1d725a083eb2eb94abc293d04b77ba8d, type: 3}
+  enemyType: 0
+  bulletPrefab: {fileID: 0}
+  deadEffect: {fileID: 5345696363615248044, guid: 182812262913f7848a995c64c7d15666, type: 3}
+  maxHP: 100
+  attackDamage: 1
+  attackRange: 1
+  attackCooldown: 1
+  wanderRadius: 10

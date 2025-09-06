@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "PlayerInventory", menuName = "Inventory/Inventory")]
+[CreateAssetMenu(fileName = "PlayerInventory", menuName = "Game/Inventory/Inventory")]
 public class InventorySO : ScriptableObject
 {
     public int maxSlots = 20;
